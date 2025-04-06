@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import CharacterDetail from '@/app/components/CharacterDetail';
+import styles from './page.module.css';
 
 interface Character {
   id: string;
@@ -72,17 +73,7 @@ export default function CharacterPage({ params }: { params: { id: string } }) {
 
   if (loading) {
     return (
-      <div style={{ 
-        display: 'flex', 
-        justifyContent: 'center', 
-        alignItems: 'center', 
-        height: '100vh',
-        backgroundColor: '#1a1a1a',
-        color: '#ffffff',
-        fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
-        fontSize: '1.2rem',
-        fontWeight: 500
-      }}>
+      <div className={styles.loadingContainer}>
         Loading...
       </div>
     );

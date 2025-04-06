@@ -403,29 +403,29 @@ a.secondary {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.9);
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   z-index: 1000;
-  animation: fadeOut 0.5s ease forwards 3s;
 }
 
 .loadingText {
-  color: var(--text-color);
-  font-size: 2rem;
+  color: #ff0000;
+  font-size: 24px;
   margin-bottom: 20px;
-  letter-spacing: 2px;
-  font-family: 'Courier New', monospace;
+  font-family: 'Orbitron', sans-serif;
 }
 
 .loadingText .cursor {
   display: inline-block;
-  color: var(--text-color);
-  animation: blink 0.7s infinite;
+  width: 2px;
+  height: 24px;
+  background-color: #ff0000;
+  animation: blink 1s infinite;
 }
 
 @keyframes blink {
@@ -434,102 +434,40 @@ a.secondary {
 }
 
 .progressBar {
-  width: 300px;
+  width: 200px;
   height: 4px;
-  background-color: transparent;
+  background-color: rgba(255, 0, 0, 0.2);
   border-radius: 2px;
   overflow: hidden;
-  position: relative;
 }
 
 .progressFill {
-  position: absolute;
-  top: 0;
-  left: 0;
   height: 100%;
-  width: 0%;
-  background-color: transparent;
-  animation: progressFill 3s ease forwards;
+  background-color: #ff0000;
+  animation: progressFill 2s ease-in-out infinite;
 }
 
 @keyframes progressFill {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 100%;
-  }
+  0% { width: 0%; }
+  50% { width: 100%; }
+  100% { width: 0%; }
 }
 
 @keyframes fadeOut {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    visibility: hidden;
-  }
+  0% { opacity: 1; }
+  100% { opacity: 0; }
 }
 
 @keyframes inputGlitch {
-  0% {
-    opacity: 1;
-  }
-  10% {
-    opacity: 0.9;
-  }
-  20% {
-    opacity: 1;
-  }
-  30% {
-    opacity: 0.8;
-  }
-  40% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.9;
-  }
-  60% {
-    opacity: 1;
-  }
-  70% {
-    opacity: 0.7;
-  }
-  80% {
-    opacity: 1;
-  }
-  90% {
-    opacity: 0.8;
-  }
-  100% {
-    opacity: 1;
-  }
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-2px); }
+  50% { transform: translateX(2px); }
+  75% { transform: translateX(-2px); }
 }
 
 @keyframes buttonGlitch {
-  0% {
-    opacity: 1;
-  }
-  15% {
-    opacity: 0.8;
-  }
-  30% {
-    opacity: 1;
-  }
-  45% {
-    opacity: 0.9;
-  }
-  60% {
-    opacity: 1;
-  }
-  75% {
-    opacity: 0.7;
-  }
-  90% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-2px); }
+  50% { transform: translateX(2px); }
+  75% { transform: translateX(-2px); }
 }

@@ -17,6 +17,7 @@ export default function Home() {
   const [searchResults, setSearchResults] = useState<SearchResult | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [loadingText, setLoadingText] = useState('');
+  const [isSearching, setIsSearching] = useState(false);
   const loadingMessage = "Obtaining search permission...";
   const inputRef = useRef<HTMLInputElement>(null);
 
@@ -42,19 +43,39 @@ export default function Home() {
   const handleSearch = async () => {
     if (!searchQuery.trim()) return;
     
-    console.log('Search button clicked');
-    console.log('Search query:', searchQuery);
-    const response = await fetch('api/search', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({ query: searchQuery })
-    });
-    const data = await response.json();
-    console.log('Search results:', data);
-    setSearchResults(data);
-    setIsModalOpen(true);
+    setIsSearching(true);
+    
+    try {
+      console.log('Search button clicked');
+      console.log('Search query:', searchQuery);
+      const response = await fetch('api/search', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ query: searchQuery })
+      });
+      
+      if (!response.ok) {
+        throw new Error(`Search request failed: ${response.status}`);
+      }
+      
+      const data = await response.json();
+      console.log('Search results:', data);
+      setSearchResults(data);
+      setIsModalOpen(true);
+    } catch (error) {
+      console.error('Search error:', error);
+      // Display error message
+      setSearchResults({
+        query: searchQuery,
+        message: ['An error occurred during search, please try again later'],
+        results: []
+      });
+      setIsModalOpen(true);
+    } finally {
+      setIsSearching(false);
+    }
   };
 
   const handleKeyPress = (e: React.KeyboardEvent) => {
@@ -81,20 +102,27 @@ export default function Home() {
           <input 
             ref={inputRef}
             type="text" 
-            placeholder="Search function online" 
+            placeholder="lets plug in and scrape the data" 
             className={styles.searchInput}
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             onKeyPress={handleKeyPress}
+            disabled={isSearching}
           />
-          <button className={styles.searchButton} onClick={handleSearch}>injection</button>
+          <button 
+            className={styles.searchButton} 
+            onClick={handleSearch}
+            disabled={isSearching}
+          >
+            {isSearching ? 'Searching...' : 'injection'}
+          </button>
         </div>
       </div>
       {searchResults && (
         <Modal 
           isOpen={isModalOpen} 
           onClose={() => setIsModalOpen(false)} 
-          data={searchResults} 
+          data={searchResults}
         />
       )}
     </div>

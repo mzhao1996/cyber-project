@@ -6,7 +6,6 @@ import CharacterDetail from './CharacterDetail';
 import { Character } from '@/type/character';
 
 interface SearchResult {
-  message: string[];
   query: string;
   results: Character[];
 }
@@ -76,6 +75,7 @@ ${Object.entries(character.skills).map(([skill, level]) => `- ${skill}: ${level}
       <div ref={modalRef} className={styles.modalContent}>
         <div className={styles.modalHeader}>
           <h2>Search Results</h2>
+          <button className={styles.closeButton} onClick={onClose}>×</button>
         </div>
         <div className={styles.searchInfo}>
           <p>Query: {data.query}</p>
@@ -103,14 +103,15 @@ ${Object.entries(character.skills).map(([skill, level]) => `- ${skill}: ${level}
             );
           })}
         </div>
-      </div>
-      {selectedCharacter && (
-        <div className={styles.detailOverlay}>
-          <div ref={detailRef}>
-            <CharacterDetail character={selectedCharacter} />
+        {selectedCharacter && (
+          <div className={styles.detailOverlay}>
+            <div ref={detailRef} className={styles.detailContent}>
+              <button className={styles.closeButton} onClick={() => setSelectedCharacter(null)}>×</button>
+              <CharacterDetail character={selectedCharacter} />
+            </div>
           </div>
-        </div>
-      )}
+        )}
+      </div>
     </div>
   );
 } 

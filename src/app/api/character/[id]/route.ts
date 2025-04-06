@@ -1,30 +1,7 @@
 import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
-
-interface Character {
-  id: number;
-  name: string;
-  occupation: string;
-  attributes: {
-    intelligence: number;
-    reaction: number;
-    technology: number;
-    physical: number;
-  };
-  skills: {
-    [key: string]: number;
-  };
-  cybernetics: {
-    name: string;
-    type: string;
-    version: string;
-  }[];
-  controllability: number;
-  hijack_difficulty: number;
-  bounty: number;
-  legal_immunity: boolean;
-}
+import { Character } from '@/type/character';
 
 export async function GET(
   request: Request,
@@ -35,7 +12,7 @@ export async function GET(
     const fileContent = fs.readFileSync(filePath, 'utf-8');
     const characterData: Character[] = JSON.parse(fileContent);
     
-    const character = characterData.find((char: Character) => char.id === parseInt(params.id));
+    const character = characterData.find((char: Character) => char.id === params.id);
     
     if (!character) {
       return NextResponse.json(

@@ -1,0 +1,2747 @@
+[
+  {
+    "id": "1",
+    "name": "Kenji Tanaka",
+    "occupation": "Hacker",
+    "phone": "+1 (416) 555-0123",
+    "address": "123 Yonge St, Toronto, ON M5C 2W1",
+    "bio": "A former corporate security specialist turned underground hacker. Known for his exceptional skills in breaching high-security systems and his strict moral code.",
+    "education": [
+      "University of Toronto - Computer Science (2015-2019)",
+      "Night City Technical Institute - Advanced Cybersecurity (2019-2020)"
+    ],
+    "gangAffiliations": [
+      "Former member of the NetWatch Division",
+      "Current associate of the Voodoo Boys"
+    ],
+    "experience": [
+      "Led the infamous 'Black Ice' operation against Arasaka (2021)",
+      "Developed the 'Ghost Protocol' security system (2020)",
+      "Survived the Night City Data Crash (2019)"
+    ],
+    "attributes": {
+      "strength": 3,
+      "intelligence": 8,
+      "reflexes": 5,
+      "tech": 9,
+      "cool": 6,
+      "luck": 4,
+      "movement": 5,
+      "body": 4,
+      "empathy": 5
+    },
+    "skills": {
+      "hacking": 9,
+      "programming": 8,
+      "electronics": 7,
+      "stealth": 6,
+      "persuasion": 5
+    },
+    "cybernetics": [
+      {
+        "name": "Neural Interface",
+        "type": "Brainware",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Cyberdeck",
+        "type": "Hardware",
+        "version": "Mk.2"
+      }
+    ],
+    "stats": {
+      "controllability": 7,
+      "hijack_difficulty": 8,
+      "bounty": 50000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "2",
+    "name": "Sarah Chen",
+    "occupation": "Samurai",
+    "phone": "+1 (416) 555-0456",
+    "address": "456 Bay St, Toronto, ON M5H 2Y4",
+    "bio": "A legendary street samurai with a mysterious past. Known for her unmatched sword skills and her quest for redemption.",
+    "education": [
+      "Night City Combat Academy (2016-2018)",
+      "Arasaka Security Training Program (2018-2019)"
+    ],
+    "gangAffiliations": [
+      "Former Arasaka Security Force",
+      "Independent Mercenary"
+    ],
+    "experience": [
+      "Defeated the legendary 'Blade Master' in single combat (2022)",
+      "Survived the Arasaka Tower Incident (2020)",
+      "Trained under the last remaining master of the ancient sword style"
+    ],
+    "attributes": {
+      "strength": 7,
+      "intelligence": 5,
+      "reflexes": 9,
+      "tech": 4,
+      "cool": 8,
+      "luck": 6,
+      "movement": 8,
+      "body": 7,
+      "empathy": 4
+    },
+    "skills": {
+      "swordsmanship": 9,
+      "combat": 8,
+      "stealth": 7,
+      "tactics": 6,
+      "leadership": 5
+    },
+    "cybernetics": [
+      {
+        "name": "Sandevistan",
+        "type": "Operating System",
+        "version": "Mk.4"
+      },
+      {
+        "name": "Mantis Blades",
+        "type": "Arms",
+        "version": "Mk.2"
+      }
+    ],
+    "stats": {
+      "controllability": 6,
+      "hijack_difficulty": 7,
+      "bounty": 75000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "3",
+    "name": "Marcus Johnson",
+    "occupation": "Ninja",
+    "phone": "+1 (416) 555-0789",
+    "address": "789 Queen St W, Toronto, ON M6J 1G1",
+    "bio": "A master of stealth and infiltration, specializing in corporate espionage and high-value target elimination.",
+    "education": [
+      "Night City Ninja Academy (2017-2019)",
+      "Advanced Stealth Operations Training (2019-2020)"
+    ],
+    "gangAffiliations": [
+      "Former member of the Tyger Claws",
+      "Current operative for the Fixers Network"
+    ],
+    "experience": [
+      "Successfully infiltrated the Militech Headquarters (2021)",
+      "Developed the 'Shadow Step' infiltration technique",
+      "Survived the Night City Blackout (2018)"
+    ],
+    "attributes": {
+      "strength": 5,
+      "intelligence": 6,
+      "reflexes": 8,
+      "tech": 5,
+      "cool": 9,
+      "luck": 7,
+      "movement": 9,
+      "body": 6,
+      "empathy": 4
+    },
+    "skills": {
+      "stealth": 9,
+      "acrobatics": 8,
+      "infiltration": 8,
+      "combat": 7,
+      "lockpicking": 6
+    },
+    "cybernetics": [
+      {
+        "name": "Optical Camo",
+        "type": "Skinware",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Reinforced Tendons",
+        "type": "Legs",
+        "version": "Mk.2"
+      }
+    ],
+    "stats": {
+      "controllability": 5,
+      "hijack_difficulty": 9,
+      "bounty": 100000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "4",
+    "name": "Emily Rodriguez",
+    "occupation": "Technician",
+    "phone": "+1 (416) 555-0124",
+    "address": "321 Spadina Ave, Toronto, ON M5T 2E8",
+    "bio": "A brilliant technician and engineer, specializing in cybernetic modifications and weapon systems.",
+    "education": [
+      "University of Toronto - Engineering (2015-2019)",
+      "Night City Technical Institute - Cybernetics (2019-2020)"
+    ],
+    "gangAffiliations": [
+      "Former member of the Maelstrom Gang",
+      "Independent Contractor"
+    ],
+    "experience": [
+      "Designed the revolutionary 'Quantum Core' cybernetic system (2021)",
+      "Worked on the development of the latest generation of smart weapons",
+      "Survived the Night City Riots (2017)"
+    ],
+    "attributes": {
+      "strength": 4,
+      "intelligence": 8,
+      "reflexes": 5,
+      "tech": 9,
+      "cool": 6,
+      "luck": 5,
+      "movement": 5,
+      "body": 5,
+      "empathy": 6
+    },
+    "skills": {
+      "engineering": 9,
+      "cybernetics": 8,
+      "weaponsmith": 7,
+      "electronics": 8,
+      "mechanics": 7
+    },
+    "cybernetics": [
+      {
+        "name": "Tech Scanner",
+        "type": "Eye",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Reinforced Arms",
+        "type": "Arms",
+        "version": "Mk.2"
+      }
+    ],
+    "stats": {
+      "controllability": 7,
+      "hijack_difficulty": 6,
+      "bounty": 25000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "5",
+    "name": "David Kim",
+    "occupation": "Nurse",
+    "phone": "+1 (416) 555-0457",
+    "address": "654 College St, Toronto, ON M6G 1B7",
+    "bio": "A skilled medical professional with extensive knowledge of both traditional medicine and cybernetic healthcare.",
+    "education": [
+      "University of Toronto - Medicine (2014-2018)",
+      "Night City Medical Center - Cybernetic Medicine (2018-2019)"
+    ],
+    "gangAffiliations": [
+      "Former Trauma Team International",
+      "Independent Medical Consultant"
+    ],
+    "experience": [
+      "Developed new techniques for cybernetic integration (2020)",
+      "Led the emergency response during the Night City Blackout (2018)",
+      "Worked with top-tier cybernetic specialists"
+    ],
+    "attributes": {
+      "strength": 4,
+      "intelligence": 7,
+      "reflexes": 5,
+      "tech": 8,
+      "cool": 7,
+      "luck": 6,
+      "movement": 5,
+      "body": 5,
+      "empathy": 9
+    },
+    "skills": {
+      "medicine": 9,
+      "cybernetics": 7,
+      "first aid": 8,
+      "diagnostics": 8,
+      "surgery": 7
+    },
+    "cybernetics": [
+      {
+        "name": "Medical Scanner",
+        "type": "Eye",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Surgical Arms",
+        "type": "Arms",
+        "version": "Mk.2"
+      }
+    ],
+    "stats": {
+      "controllability": 8,
+      "hijack_difficulty": 5,
+      "bounty": 15000,
+      "legal_immunity": "Yes"
+    }
+  },
+  {
+    "id": "6",
+    "name": "Alex Morgan",
+    "occupation": "Undercover",
+    "phone": "+1 (416) 555-0790",
+    "address": "987 King St W, Toronto, ON M5V 1J8",
+    "bio": "A master of disguise and infiltration, specializing in undercover operations and intelligence gathering.",
+    "education": [
+      "Night City Police Academy (2016-2018)",
+      "Advanced Undercover Operations Training (2018-2019)"
+    ],
+    "gangAffiliations": [
+      "Former NCPD Special Operations",
+      "Current operative for various corporations"
+    ],
+    "experience": [
+      "Successfully infiltrated multiple major criminal organizations",
+      "Developed new techniques for identity masking",
+      "Survived numerous high-risk undercover operations"
+    ],
+    "attributes": {
+      "strength": 5,
+      "intelligence": 7,
+      "reflexes": 6,
+      "tech": 6,
+      "cool": 9,
+      "luck": 8,
+      "movement": 7,
+      "body": 6,
+      "empathy": 8
+    },
+    "skills": {
+      "disguise": 9,
+      "infiltration": 8,
+      "persuasion": 8,
+      "stealth": 7,
+      "investigation": 7
+    },
+    "cybernetics": [
+      {
+        "name": "Face Changer",
+        "type": "Face",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Voice Modulator",
+        "type": "Throat",
+        "version": "Mk.2"
+      }
+    ],
+    "stats": {
+      "controllability": 7,
+      "hijack_difficulty": 8,
+      "bounty": 50000,
+      "legal_immunity": "Yes"
+    }
+  },
+  {
+    "id": "7",
+    "name": "Victor Stone",
+    "occupation": "Bounty Hunter",
+    "phone": "+1 (416) 555-0125",
+    "address": "234 Dundas St W, Toronto, ON M5G 1Z7",
+    "bio": "A relentless bounty hunter known for tracking down the most elusive targets in Night City. Specializes in high-value captures and has an impressive success rate.",
+    "education": [
+      "Night City Bounty Hunter Academy (2017-2019)",
+      "Advanced Tracking and Surveillance (2019-2020)"
+    ],
+    "gangAffiliations": [
+      "Former member of the Animals",
+      "Independent Contractor"
+    ],
+    "experience": [
+      "Captured the notorious 'Ghost Runner' (2022)",
+      "Developed advanced tracking algorithms",
+      "Survived the Night City Gang Wars (2018)"
+    ],
+    "attributes": {
+      "strength": 7,
+      "intelligence": 6,
+      "reflexes": 8,
+      "tech": 6,
+      "cool": 8,
+      "luck": 7,
+      "movement": 7,
+      "body": 8,
+      "empathy": 4
+    },
+    "skills": {
+      "tracking": 9,
+      "combat": 8,
+      "survival": 8,
+      "investigation": 7,
+      "negotiation": 6
+    },
+    "cybernetics": [
+      {
+        "name": "Targeting System",
+        "type": "Eye",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Reinforced Skeleton",
+        "type": "Skeleton",
+        "version": "Mk.2"
+      }
+    ],
+    "stats": {
+      "controllability": 6,
+      "hijack_difficulty": 7,
+      "bounty": 60000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "8",
+    "name": "Luna Martinez",
+    "occupation": "Netrunner",
+    "phone": "+1 (416) 555-0458",
+    "address": "567 Bloor St W, Toronto, ON M6G 1K5",
+    "bio": "A prodigious netrunner with an innate ability to navigate the complex digital landscape of Night City. Known for her innovative hacking techniques.",
+    "education": [
+      "Night City University - Computer Science (2016-2020)",
+      "Advanced Netrunning Program (2020-2021)"
+    ],
+    "gangAffiliations": [
+      "Former member of the NetWatch",
+      "Current associate of the Voodoo Boys"
+    ],
+    "experience": [
+      "Successfully breached the Arasaka mainframe (2021)",
+      "Developed the 'Quantum Breach' protocol",
+      "Survived the Net Crash of 2020"
+    ],
+    "attributes": {
+      "strength": 3,
+      "intelligence": 9,
+      "reflexes": 6,
+      "tech": 9,
+      "cool": 7,
+      "luck": 5,
+      "movement": 4,
+      "body": 4,
+      "empathy": 6
+    },
+    "skills": {
+      "netrunning": 9,
+      "programming": 8,
+      "cybersecurity": 8,
+      "data analysis": 7,
+      "system architecture": 7
+    },
+    "cybernetics": [
+      {
+        "name": "Neural Link",
+        "type": "Brainware",
+        "version": "Mk.4"
+      },
+      {
+        "name": "Cyberdeck",
+        "type": "Hardware",
+        "version": "Mk.3"
+      }
+    ],
+    "stats": {
+      "controllability": 5,
+      "hijack_difficulty": 9,
+      "bounty": 80000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "9",
+    "name": "Jack Reynolds",
+    "occupation": "Fixer",
+    "phone": "+1 (416) 555-0791",
+    "address": "890 Queen St E, Toronto, ON M4M 1J5",
+    "bio": "A well-connected fixer who knows everyone worth knowing in Night City. Specializes in arranging high-stakes deals and finding rare items.",
+    "education": [
+      "Night City Business School (2015-2017)",
+      "Advanced Negotiation Training (2017-2018)"
+    ],
+    "gangAffiliations": [
+      "Former member of the Valentinos",
+      "Independent Businessman"
+    ],
+    "experience": [
+      "Arranged the largest arms deal in Night City history (2021)",
+      "Built an extensive network of contacts",
+      "Survived multiple assassination attempts"
+    ],
+    "attributes": {
+      "strength": 4,
+      "intelligence": 8,
+      "reflexes": 5,
+      "tech": 6,
+      "cool": 9,
+      "luck": 8,
+      "movement": 5,
+      "body": 5,
+      "empathy": 8
+    },
+    "skills": {
+      "negotiation": 9,
+      "streetwise": 8,
+      "persuasion": 8,
+      "business": 7,
+      "networking": 9
+    },
+    "cybernetics": [
+      {
+        "name": "Social Analyzer",
+        "type": "Eye",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Voice Modulator",
+        "type": "Throat",
+        "version": "Mk.2"
+      }
+    ],
+    "stats": {
+      "controllability": 8,
+      "hijack_difficulty": 6,
+      "bounty": 40000,
+      "legal_immunity": "Yes"
+    }
+  },
+  {
+    "id": "10",
+    "name": "Raven Blackwood",
+    "occupation": "Hacker",
+    "phone": "+1 (416) 555-0126",
+    "address": "345 Spadina Ave, Toronto, ON M5T 2G3",
+    "bio": "A notorious black hat hacker who specializes in corporate espionage. Known for her ability to breach even the most secure systems.",
+    "education": [
+      "Night City University - Cybersecurity (2016-2020)",
+      "Advanced Hacking Techniques (2020-2021)"
+    ],
+    "gangAffiliations": [
+      "Former member of the Voodoo Boys",
+      "Current associate of the NetWatch"
+    ],
+    "experience": [
+      "Successfully hacked into Arasaka's mainframe (2021)",
+      "Developed the 'Quantum Breach' protocol",
+      "Survived the Net Crash of 2020"
+    ],
+    "attributes": {
+      "strength": 3,
+      "intelligence": 9,
+      "reflexes": 5,
+      "tech": 9,
+      "cool": 7,
+      "luck": 6,
+      "movement": 4,
+      "body": 4,
+      "empathy": 5
+    },
+    "skills": {
+      "hacking": 9,
+      "programming": 8,
+      "cybersecurity": 8,
+      "electronics": 7,
+      "stealth": 6
+    },
+    "cybernetics": [
+      {
+        "name": "NetWatch Netdriver Mk.5",
+        "type": "Cyberdeck",
+        "version": "Mk.5"
+      },
+      {
+        "name": "Kiroshi Optics Mk.3",
+        "type": "Eye",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Neural Link",
+        "type": "Brainware",
+        "version": "Mk.4"
+      }
+    ],
+    "stats": {
+      "controllability": 6,
+      "hijack_difficulty": 9,
+      "bounty": 75000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "11",
+    "name": "Dante Silva",
+    "occupation": "Samurai",
+    "phone": "+1 (416) 555-0459",
+    "address": "678 Yonge St, Toronto, ON M4Y 2A6",
+    "bio": "A legendary street samurai who follows the ancient code of bushido. Known for his unmatched sword skills and honor.",
+    "education": [
+      "Arasaka Combat Academy (2017-2019)",
+      "Advanced Sword Mastery (2019-2020)"
+    ],
+    "gangAffiliations": [
+      "Former Arasaka Security Force",
+      "Independent Mercenary"
+    ],
+    "experience": [
+      "Defeated the legendary 'Blade Master' in single combat (2022)",
+      "Survived the Arasaka Tower Incident (2020)",
+      "Trained under the last remaining master of the ancient sword style"
+    ],
+    "attributes": {
+      "strength": 8,
+      "intelligence": 6,
+      "reflexes": 9,
+      "tech": 5,
+      "cool": 8,
+      "luck": 7,
+      "movement": 8,
+      "body": 8,
+      "empathy": 5
+    },
+    "skills": {
+      "swordsmanship": 9,
+      "combat": 8,
+      "stealth": 7,
+      "tactics": 6,
+      "leadership": 5
+    },
+    "cybernetics": [
+      {
+        "name": "Sandevistan Mk.5",
+        "type": "Operating System",
+        "version": "Mk.5"
+      },
+      {
+        "name": "Mantis Blades Mk.3",
+        "type": "Arms",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Synaptic Accelerator",
+        "type": "Nervous System",
+        "version": "Mk.2"
+      }
+    ],
+    "stats": {
+      "controllability": 7,
+      "hijack_difficulty": 8,
+      "bounty": 90000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "12",
+    "name": "Mira Chen",
+    "occupation": "Netrunner",
+    "phone": "+1 (416) 555-0792",
+    "address": "901 Queen St W, Toronto, ON M6J 1G6",
+    "bio": "A prodigious netrunner with a unique ability to interface with the Net. Known for her innovative hacking techniques and quick thinking.",
+    "education": [
+      "Night City University - Computer Science (2016-2020)",
+      "Advanced Netrunning Program (2020-2021)"
+    ],
+    "gangAffiliations": [
+      "Former member of the Voodoo Boys",
+      "Current associate of the NetWatch"
+    ],
+    "experience": [
+      "Successfully breached the Arasaka mainframe (2021)",
+      "Developed the 'Quantum Breach' protocol",
+      "Survived the Net Crash of 2020"
+    ],
+    "attributes": {
+      "strength": 3,
+      "intelligence": 9,
+      "reflexes": 6,
+      "tech": 9,
+      "cool": 7,
+      "luck": 5,
+      "movement": 4,
+      "body": 4,
+      "empathy": 6
+    },
+    "skills": {
+      "netrunning": 9,
+      "programming": 8,
+      "cybersecurity": 8,
+      "data analysis": 7,
+      "system architecture": 7
+    },
+    "cybernetics": [
+      {
+        "name": "Tetratronic Rippler Mk.4",
+        "type": "Cyberdeck",
+        "version": "Mk.4"
+      },
+      {
+        "name": "Kiroshi Optics Mk.3",
+        "type": "Eye",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Neural Link",
+        "type": "Brainware",
+        "version": "Mk.4"
+      }
+    ],
+    "stats": {
+      "controllability": 5,
+      "hijack_difficulty": 9,
+      "bounty": 85000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "13",
+    "name": "Kai Watanabe",
+    "occupation": "Technician",
+    "phone": "+1 (416) 555-0127",
+    "address": "234 Dundas St E, Toronto, ON M5B 1R8",
+    "bio": "A brilliant technician specializing in cybernetic modifications and weapon systems. Known for his innovative designs.",
+    "education": [
+      "Night City Technical Institute - Engineering (2015-2019)",
+      "Advanced Cybernetics (2019-2020)"
+    ],
+    "gangAffiliations": [
+      "Former member of the Maelstrom Gang",
+      "Independent Contractor"
+    ],
+    "experience": [
+      "Designed the revolutionary 'Quantum Core' cybernetic system (2021)",
+      "Worked on the development of the latest generation of smart weapons",
+      "Survived the Night City Riots (2017)"
+    ],
+    "attributes": {
+      "strength": 5,
+      "intelligence": 8,
+      "reflexes": 6,
+      "tech": 9,
+      "cool": 7,
+      "luck": 6,
+      "movement": 5,
+      "body": 6,
+      "empathy": 6
+    },
+    "skills": {
+      "engineering": 9,
+      "cybernetics": 8,
+      "weaponsmith": 7,
+      "electronics": 8,
+      "mechanics": 7
+    },
+    "cybernetics": [
+      {
+        "name": "Tech Scanner",
+        "type": "Eye",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Gorilla Arms Mk.2",
+        "type": "Arms",
+        "version": "Mk.2"
+      },
+      {
+        "name": "Reinforced Tendons",
+        "type": "Legs",
+        "version": "Mk.2"
+      }
+    ],
+    "stats": {
+      "controllability": 7,
+      "hijack_difficulty": 6,
+      "bounty": 35000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "14",
+    "name": "Lena Volkov",
+    "occupation": "Bounty Hunter",
+    "phone": "+1 (416) 555-0460",
+    "address": "567 Bloor St E, Toronto, ON M4W 1J7",
+    "bio": "A ruthless bounty hunter known for her efficiency and precision. Specializes in high-value captures and has never failed a mission.",
+    "education": [
+      "Night City Bounty Hunter Academy (2017-2019)",
+      "Advanced Tracking and Surveillance (2019-2020)"
+    ],
+    "gangAffiliations": [
+      "Former member of the Animals",
+      "Independent Contractor"
+    ],
+    "experience": [
+      "Captured the notorious 'Ghost Runner' (2022)",
+      "Developed advanced tracking algorithms",
+      "Survived the Night City Gang Wars (2018)"
+    ],
+    "attributes": {
+      "strength": 7,
+      "intelligence": 7,
+      "reflexes": 8,
+      "tech": 6,
+      "cool": 8,
+      "luck": 7,
+      "movement": 8,
+      "body": 7,
+      "empathy": 4
+    },
+    "skills": {
+      "tracking": 9,
+      "combat": 8,
+      "survival": 8,
+      "investigation": 7,
+      "negotiation": 6
+    },
+    "cybernetics": [
+      {
+        "name": "Kiroshi Optics Mk.3",
+        "type": "Eye",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Reinforced Skeleton",
+        "type": "Skeleton",
+        "version": "Mk.2"
+      },
+      {
+        "name": "Synaptic Accelerator",
+        "type": "Nervous System",
+        "version": "Mk.2"
+      }
+    ],
+    "stats": {
+      "controllability": 6,
+      "hijack_difficulty": 7,
+      "bounty": 70000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "15",
+    "name": "Zane Blackwood",
+    "occupation": "Hacker",
+    "phone": "+1 (416) 555-0128",
+    "address": "789 Spadina Ave, Toronto, ON M5T 2G4",
+    "bio": "A notorious black hat hacker who specializes in corporate espionage. Known for his ability to breach even the most secure systems.",
+    "education": [
+      "Night City University - Cybersecurity (2016-2020)",
+      "Advanced Hacking Techniques (2020-2021)"
+    ],
+    "gangAffiliations": [
+      "Former member of the Voodoo Boys",
+      "Current associate of the NetWatch"
+    ],
+    "experience": [
+      "Successfully hacked into Arasaka's mainframe (2021)",
+      "Developed the 'Quantum Breach' protocol",
+      "Survived the Net Crash of 2020"
+    ],
+    "attributes": {
+      "strength": 3,
+      "intelligence": 9,
+      "reflexes": 5,
+      "tech": 9,
+      "cool": 7,
+      "luck": 6,
+      "movement": 4,
+      "body": 4,
+      "empathy": 5
+    },
+    "skills": {
+      "hacking": 9,
+      "programming": 8,
+      "cybersecurity": 8,
+      "electronics": 7,
+      "stealth": 6
+    },
+    "cybernetics": [
+      {
+        "name": "NetWatch Netdriver Mk.5",
+        "type": "Cyberdeck",
+        "version": "Mk.5"
+      },
+      {
+        "name": "Kiroshi Optics Mk.3",
+        "type": "Eye",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Neural Link",
+        "type": "Brainware",
+        "version": "Mk.4"
+      }
+    ],
+    "stats": {
+      "controllability": 6,
+      "hijack_difficulty": 9,
+      "bounty": 75000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "16",
+    "name": "Akira Tanaka",
+    "occupation": "Samurai",
+    "phone": "+1 (416) 555-0461",
+    "address": "890 Yonge St, Toronto, ON M4Y 2A7",
+    "bio": "A legendary street samurai who follows the ancient code of bushido. Known for his unmatched sword skills and honor.",
+    "education": [
+      "Arasaka Combat Academy (2017-2019)",
+      "Advanced Sword Mastery (2019-2020)"
+    ],
+    "gangAffiliations": [
+      "Former Arasaka Security Force",
+      "Independent Mercenary"
+    ],
+    "experience": [
+      "Defeated the legendary 'Blade Master' in single combat (2022)",
+      "Survived the Arasaka Tower Incident (2020)",
+      "Trained under the last remaining master of the ancient sword style"
+    ],
+    "attributes": {
+      "strength": 8,
+      "intelligence": 6,
+      "reflexes": 9,
+      "tech": 5,
+      "cool": 8,
+      "luck": 7,
+      "movement": 8,
+      "body": 8,
+      "empathy": 5
+    },
+    "skills": {
+      "swordsmanship": 9,
+      "combat": 8,
+      "stealth": 7,
+      "tactics": 6,
+      "leadership": 5
+    },
+    "cybernetics": [
+      {
+        "name": "Sandevistan Mk.5",
+        "type": "Operating System",
+        "version": "Mk.5"
+      },
+      {
+        "name": "Mantis Blades Mk.3",
+        "type": "Arms",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Synaptic Accelerator",
+        "type": "Nervous System",
+        "version": "Mk.2"
+      }
+    ],
+    "stats": {
+      "controllability": 7,
+      "hijack_difficulty": 8,
+      "bounty": 90000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "17",
+    "name": "Sofia Volkov",
+    "occupation": "Netrunner",
+    "phone": "+1 (416) 555-0793",
+    "address": "123 Queen St W, Toronto, ON M6J 1G7",
+    "bio": "A prodigious netrunner with a unique ability to interface with the Net. Known for her innovative hacking techniques and quick thinking.",
+    "education": [
+      "Night City University - Computer Science (2016-2020)",
+      "Advanced Netrunning Program (2020-2021)"
+    ],
+    "gangAffiliations": [
+      "Former member of the Voodoo Boys",
+      "Current associate of the NetWatch"
+    ],
+    "experience": [
+      "Successfully breached the Arasaka mainframe (2021)",
+      "Developed the 'Quantum Breach' protocol",
+      "Survived the Net Crash of 2020"
+    ],
+    "attributes": {
+      "strength": 3,
+      "intelligence": 9,
+      "reflexes": 6,
+      "tech": 9,
+      "cool": 7,
+      "luck": 5,
+      "movement": 4,
+      "body": 4,
+      "empathy": 6
+    },
+    "skills": {
+      "netrunning": 9,
+      "programming": 8,
+      "cybersecurity": 8,
+      "data analysis": 7,
+      "system architecture": 7
+    },
+    "cybernetics": [
+      {
+        "name": "Tetratronic Rippler Mk.4",
+        "type": "Cyberdeck",
+        "version": "Mk.4"
+      },
+      {
+        "name": "Kiroshi Optics Mk.3",
+        "type": "Eye",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Neural Link",
+        "type": "Brainware",
+        "version": "Mk.4"
+      }
+    ],
+    "stats": {
+      "controllability": 5,
+      "hijack_difficulty": 9,
+      "bounty": 85000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "18",
+    "name": "Hiroshi Watanabe",
+    "occupation": "Technician",
+    "phone": "+1 (416) 555-0129",
+    "address": "456 Dundas St E, Toronto, ON M5B 1R9",
+    "bio": "A brilliant technician specializing in cybernetic modifications and weapon systems. Known for his innovative designs.",
+    "education": [
+      "Night City Technical Institute - Engineering (2015-2019)",
+      "Advanced Cybernetics (2019-2020)"
+    ],
+    "gangAffiliations": [
+      "Former member of the Maelstrom Gang",
+      "Independent Contractor"
+    ],
+    "experience": [
+      "Designed the revolutionary 'Quantum Core' cybernetic system (2021)",
+      "Worked on the development of the latest generation of smart weapons",
+      "Survived the Night City Riots (2017)"
+    ],
+    "attributes": {
+      "strength": 5,
+      "intelligence": 8,
+      "reflexes": 6,
+      "tech": 9,
+      "cool": 7,
+      "luck": 6,
+      "movement": 5,
+      "body": 6,
+      "empathy": 6
+    },
+    "skills": {
+      "engineering": 9,
+      "cybernetics": 8,
+      "weaponsmith": 7,
+      "electronics": 8,
+      "mechanics": 7
+    },
+    "cybernetics": [
+      {
+        "name": "Tech Scanner",
+        "type": "Eye",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Gorilla Arms Mk.2",
+        "type": "Arms",
+        "version": "Mk.2"
+      },
+      {
+        "name": "Reinforced Tendons",
+        "type": "Legs",
+        "version": "Mk.2"
+      }
+    ],
+    "stats": {
+      "controllability": 7,
+      "hijack_difficulty": 6,
+      "bounty": 35000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "19",
+    "name": "Dmitri Volkov",
+    "occupation": "Bounty Hunter",
+    "phone": "+1 (416) 555-0462",
+    "address": "789 Bloor St E, Toronto, ON M4W 1J8",
+    "bio": "A ruthless bounty hunter known for his efficiency and precision. Specializes in high-value captures and has never failed a mission.",
+    "education": [
+      "Night City Bounty Hunter Academy (2017-2019)",
+      "Advanced Tracking and Surveillance (2019-2020)"
+    ],
+    "gangAffiliations": [
+      "Former member of the Animals",
+      "Independent Contractor"
+    ],
+    "experience": [
+      "Captured the notorious 'Ghost Runner' (2022)",
+      "Developed advanced tracking algorithms",
+      "Survived the Night City Gang Wars (2018)"
+    ],
+    "attributes": {
+      "strength": 7,
+      "intelligence": 7,
+      "reflexes": 8,
+      "tech": 6,
+      "cool": 8,
+      "luck": 7,
+      "movement": 8,
+      "body": 7,
+      "empathy": 4
+    },
+    "skills": {
+      "tracking": 9,
+      "combat": 8,
+      "survival": 8,
+      "investigation": 7,
+      "negotiation": 6
+    },
+    "cybernetics": [
+      {
+        "name": "Kiroshi Optics Mk.3",
+        "type": "Eye",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Reinforced Skeleton",
+        "type": "Skeleton",
+        "version": "Mk.2"
+      },
+      {
+        "name": "Synaptic Accelerator",
+        "type": "Nervous System",
+        "version": "Mk.2"
+      }
+    ],
+    "stats": {
+      "controllability": 6,
+      "hijack_difficulty": 7,
+      "bounty": 70000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "20",
+    "name": "Lucas Blackwood",
+    "occupation": "Hacker",
+    "phone": "+1 (416) 555-0130",
+    "address": "234 Spadina Ave, Toronto, ON M5T 2G5",
+    "bio": "A notorious black hat hacker who specializes in corporate espionage. Known for his ability to breach even the most secure systems.",
+    "education": [
+      "Night City University - Cybersecurity (2016-2020)",
+      "Advanced Hacking Techniques (2020-2021)"
+    ],
+    "gangAffiliations": [
+      "Former member of the Voodoo Boys",
+      "Current associate of the NetWatch"
+    ],
+    "experience": [
+      "Successfully hacked into Arasaka's mainframe (2021)",
+      "Developed the 'Quantum Breach' protocol",
+      "Survived the Net Crash of 2020"
+    ],
+    "attributes": {
+      "strength": 3,
+      "intelligence": 9,
+      "reflexes": 5,
+      "tech": 9,
+      "cool": 7,
+      "luck": 6,
+      "movement": 4,
+      "body": 4,
+      "empathy": 5
+    },
+    "skills": {
+      "hacking": 9,
+      "programming": 8,
+      "cybersecurity": 8,
+      "electronics": 7,
+      "stealth": 6
+    },
+    "cybernetics": [
+      {
+        "name": "NetWatch Netdriver Mk.5",
+        "type": "Cyberdeck",
+        "version": "Mk.5"
+      },
+      {
+        "name": "Kiroshi Optics Mk.3",
+        "type": "Eye",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Neural Link",
+        "type": "Brainware",
+        "version": "Mk.4"
+      }
+    ],
+    "stats": {
+      "controllability": 6,
+      "hijack_difficulty": 9,
+      "bounty": 75000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "21",
+    "name": "Yuki Tanaka",
+    "occupation": "Samurai",
+    "phone": "+1 (416) 555-0463",
+    "address": "567 Yonge St, Toronto, ON M4Y 2A8",
+    "bio": "A legendary street samurai who follows the ancient code of bushido. Known for his unmatched sword skills and honor.",
+    "education": [
+      "Arasaka Combat Academy (2017-2019)",
+      "Advanced Sword Mastery (2019-2020)"
+    ],
+    "gangAffiliations": [
+      "Former Arasaka Security Force",
+      "Independent Mercenary"
+    ],
+    "experience": [
+      "Defeated the legendary 'Blade Master' in single combat (2022)",
+      "Survived the Arasaka Tower Incident (2020)",
+      "Trained under the last remaining master of the ancient sword style"
+    ],
+    "attributes": {
+      "strength": 8,
+      "intelligence": 6,
+      "reflexes": 9,
+      "tech": 5,
+      "cool": 8,
+      "luck": 7,
+      "movement": 8,
+      "body": 8,
+      "empathy": 5
+    },
+    "skills": {
+      "swordsmanship": 9,
+      "combat": 8,
+      "stealth": 7,
+      "tactics": 6,
+      "leadership": 5
+    },
+    "cybernetics": [
+      {
+        "name": "Sandevistan Mk.5",
+        "type": "Operating System",
+        "version": "Mk.5"
+      },
+      {
+        "name": "Mantis Blades Mk.3",
+        "type": "Arms",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Synaptic Accelerator",
+        "type": "Nervous System",
+        "version": "Mk.2"
+      }
+    ],
+    "stats": {
+      "controllability": 7,
+      "hijack_difficulty": 8,
+      "bounty": 90000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "22",
+    "name": "Nina Volkov",
+    "occupation": "Netrunner",
+    "phone": "+1 (416) 555-0794",
+    "address": "890 Queen St W, Toronto, ON M6J 1G8",
+    "bio": "A prodigious netrunner with a unique ability to interface with the Net. Known for her innovative hacking techniques and quick thinking.",
+    "education": [
+      "Night City University - Computer Science (2016-2020)",
+      "Advanced Netrunning Program (2020-2021)"
+    ],
+    "gangAffiliations": [
+      "Former member of the Voodoo Boys",
+      "Current associate of the NetWatch"
+    ],
+    "experience": [
+      "Successfully breached the Arasaka mainframe (2021)",
+      "Developed the 'Quantum Breach' protocol",
+      "Survived the Net Crash of 2020"
+    ],
+    "attributes": {
+      "strength": 3,
+      "intelligence": 9,
+      "reflexes": 6,
+      "tech": 9,
+      "cool": 7,
+      "luck": 5,
+      "movement": 4,
+      "body": 4,
+      "empathy": 6
+    },
+    "skills": {
+      "netrunning": 9,
+      "programming": 8,
+      "cybersecurity": 8,
+      "data analysis": 7,
+      "system architecture": 7
+    },
+    "cybernetics": [
+      {
+        "name": "Tetratronic Rippler Mk.4",
+        "type": "Cyberdeck",
+        "version": "Mk.4"
+      },
+      {
+        "name": "Kiroshi Optics Mk.3",
+        "type": "Eye",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Neural Link",
+        "type": "Brainware",
+        "version": "Mk.4"
+      }
+    ],
+    "stats": {
+      "controllability": 5,
+      "hijack_difficulty": 9,
+      "bounty": 85000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "23",
+    "name": "Kenji Watanabe",
+    "occupation": "Technician",
+    "phone": "+1 (416) 555-0131",
+    "address": "123 Dundas St E, Toronto, ON M5B 1R0",
+    "bio": "A brilliant technician specializing in cybernetic modifications and weapon systems. Known for his innovative designs.",
+    "education": [
+      "Night City Technical Institute - Engineering (2015-2019)",
+      "Advanced Cybernetics (2019-2020)"
+    ],
+    "gangAffiliations": [
+      "Former member of the Maelstrom Gang",
+      "Independent Contractor"
+    ],
+    "experience": [
+      "Designed the revolutionary 'Quantum Core' cybernetic system (2021)",
+      "Worked on the development of the latest generation of smart weapons",
+      "Survived the Night City Riots (2017)"
+    ],
+    "attributes": {
+      "strength": 5,
+      "intelligence": 8,
+      "reflexes": 6,
+      "tech": 9,
+      "cool": 7,
+      "luck": 6,
+      "movement": 5,
+      "body": 6,
+      "empathy": 6
+    },
+    "skills": {
+      "engineering": 9,
+      "cybernetics": 8,
+      "weaponsmith": 7,
+      "electronics": 8,
+      "mechanics": 7
+    },
+    "cybernetics": [
+      {
+        "name": "Tech Scanner",
+        "type": "Eye",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Gorilla Arms Mk.2",
+        "type": "Arms",
+        "version": "Mk.2"
+      },
+      {
+        "name": "Reinforced Tendons",
+        "type": "Legs",
+        "version": "Mk.2"
+      }
+    ],
+    "stats": {
+      "controllability": 7,
+      "hijack_difficulty": 6,
+      "bounty": 35000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "24",
+    "name": "Ivan Volkov",
+    "occupation": "Bounty Hunter",
+    "phone": "+1 (416) 555-0464",
+    "address": "456 Bloor St E, Toronto, ON M4W 1J9",
+    "bio": "A ruthless bounty hunter known for his efficiency and precision. Specializes in high-value captures and has never failed a mission.",
+    "education": [
+      "Night City Bounty Hunter Academy (2017-2019)",
+      "Advanced Tracking and Surveillance (2019-2020)"
+    ],
+    "gangAffiliations": [
+      "Former member of the Animals",
+      "Independent Contractor"
+    ],
+    "experience": [
+      "Captured the notorious 'Ghost Runner' (2022)",
+      "Developed advanced tracking algorithms",
+      "Survived the Night City Gang Wars (2018)"
+    ],
+    "attributes": {
+      "strength": 7,
+      "intelligence": 7,
+      "reflexes": 8,
+      "tech": 6,
+      "cool": 8,
+      "luck": 7,
+      "movement": 8,
+      "body": 7,
+      "empathy": 4
+    },
+    "skills": {
+      "tracking": 9,
+      "combat": 8,
+      "survival": 8,
+      "investigation": 7,
+      "negotiation": 6
+    },
+    "cybernetics": [
+      {
+        "name": "Kiroshi Optics Mk.3",
+        "type": "Eye",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Reinforced Skeleton",
+        "type": "Skeleton",
+        "version": "Mk.2"
+      },
+      {
+        "name": "Synaptic Accelerator",
+        "type": "Nervous System",
+        "version": "Mk.2"
+      }
+    ],
+    "stats": {
+      "controllability": 6,
+      "hijack_difficulty": 7,
+      "bounty": 70000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "25",
+    "name": "Max Blackwood",
+    "occupation": "Hacker",
+    "phone": "+1 (416) 555-0132",
+    "address": "567 Spadina Ave, Toronto, ON M5T 2G6",
+    "bio": "A notorious black hat hacker who specializes in corporate espionage. Known for his ability to breach even the most secure systems.",
+    "education": [
+      "Night City University - Cybersecurity (2016-2020)",
+      "Advanced Hacking Techniques (2020-2021)"
+    ],
+    "gangAffiliations": [
+      "Former member of the Voodoo Boys",
+      "Current associate of the NetWatch"
+    ],
+    "experience": [
+      "Successfully hacked into Arasaka's mainframe (2021)",
+      "Developed the 'Quantum Breach' protocol",
+      "Survived the Net Crash of 2020"
+    ],
+    "attributes": {
+      "strength": 3,
+      "intelligence": 9,
+      "reflexes": 5,
+      "tech": 9,
+      "cool": 7,
+      "luck": 6,
+      "movement": 4,
+      "body": 4,
+      "empathy": 5
+    },
+    "skills": {
+      "hacking": 9,
+      "programming": 8,
+      "cybersecurity": 8,
+      "electronics": 7,
+      "stealth": 6
+    },
+    "cybernetics": [
+      {
+        "name": "NetWatch Netdriver Mk.5",
+        "type": "Cyberdeck",
+        "version": "Mk.5"
+      },
+      {
+        "name": "Kiroshi Optics Mk.3",
+        "type": "Eye",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Neural Link",
+        "type": "Brainware",
+        "version": "Mk.4"
+      }
+    ],
+    "stats": {
+      "controllability": 6,
+      "hijack_difficulty": 9,
+      "bounty": 75000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "26",
+    "name": "Hiro Tanaka",
+    "occupation": "Samurai",
+    "phone": "+1 (416) 555-0465",
+    "address": "890 Yonge St, Toronto, ON M4Y 2A9",
+    "bio": "A legendary street samurai who follows the ancient code of bushido. Known for his unmatched sword skills and honor.",
+    "education": [
+      "Arasaka Combat Academy (2017-2019)",
+      "Advanced Sword Mastery (2019-2020)"
+    ],
+    "gangAffiliations": [
+      "Former Arasaka Security Force",
+      "Independent Mercenary"
+    ],
+    "experience": [
+      "Defeated the legendary 'Blade Master' in single combat (2022)",
+      "Survived the Arasaka Tower Incident (2020)",
+      "Trained under the last remaining master of the ancient sword style"
+    ],
+    "attributes": {
+      "strength": 8,
+      "intelligence": 6,
+      "reflexes": 9,
+      "tech": 5,
+      "cool": 8,
+      "luck": 7,
+      "movement": 8,
+      "body": 8,
+      "empathy": 5
+    },
+    "skills": {
+      "swordsmanship": 9,
+      "combat": 8,
+      "stealth": 7,
+      "tactics": 6,
+      "leadership": 5
+    },
+    "cybernetics": [
+      {
+        "name": "Sandevistan Mk.5",
+        "type": "Operating System",
+        "version": "Mk.5"
+      },
+      {
+        "name": "Mantis Blades Mk.3",
+        "type": "Arms",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Synaptic Accelerator",
+        "type": "Nervous System",
+        "version": "Mk.2"
+      }
+    ],
+    "stats": {
+      "controllability": 7,
+      "hijack_difficulty": 8,
+      "bounty": 90000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "27",
+    "name": "Maya Volkov",
+    "occupation": "Netrunner",
+    "phone": "+1 (416) 555-0795",
+    "address": "123 Queen St W, Toronto, ON M6J 1G9",
+    "bio": "A prodigious netrunner with a unique ability to interface with the Net. Known for her innovative hacking techniques and quick thinking.",
+    "education": [
+      "Night City University - Computer Science (2016-2020)",
+      "Advanced Netrunning Program (2020-2021)"
+    ],
+    "gangAffiliations": [
+      "Former member of the Voodoo Boys",
+      "Current associate of the NetWatch"
+    ],
+    "experience": [
+      "Successfully breached the Arasaka mainframe (2021)",
+      "Developed the 'Quantum Breach' protocol",
+      "Survived the Net Crash of 2020"
+    ],
+    "attributes": {
+      "strength": 3,
+      "intelligence": 9,
+      "reflexes": 6,
+      "tech": 9,
+      "cool": 7,
+      "luck": 5,
+      "movement": 4,
+      "body": 4,
+      "empathy": 6
+    },
+    "skills": {
+      "netrunning": 9,
+      "programming": 8,
+      "cybersecurity": 8,
+      "data analysis": 7,
+      "system architecture": 7
+    },
+    "cybernetics": [
+      {
+        "name": "Tetratronic Rippler Mk.4",
+        "type": "Cyberdeck",
+        "version": "Mk.4"
+      },
+      {
+        "name": "Kiroshi Optics Mk.3",
+        "type": "Eye",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Neural Link",
+        "type": "Brainware",
+        "version": "Mk.4"
+      }
+    ],
+    "stats": {
+      "controllability": 5,
+      "hijack_difficulty": 9,
+      "bounty": 85000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "28",
+    "name": "Takeshi Watanabe",
+    "occupation": "Technician",
+    "phone": "+1 (416) 555-0133",
+    "address": "456 Dundas St E, Toronto, ON M5B 1R1",
+    "bio": "A brilliant technician specializing in cybernetic modifications and weapon systems. Known for his innovative designs.",
+    "education": [
+      "Night City Technical Institute - Engineering (2015-2019)",
+      "Advanced Cybernetics (2019-2020)"
+    ],
+    "gangAffiliations": [
+      "Former member of the Maelstrom Gang",
+      "Independent Contractor"
+    ],
+    "experience": [
+      "Designed the revolutionary 'Quantum Core' cybernetic system (2021)",
+      "Worked on the development of the latest generation of smart weapons",
+      "Survived the Night City Riots (2017)"
+    ],
+    "attributes": {
+      "strength": 5,
+      "intelligence": 8,
+      "reflexes": 6,
+      "tech": 9,
+      "cool": 7,
+      "luck": 6,
+      "movement": 5,
+      "body": 6,
+      "empathy": 6
+    },
+    "skills": {
+      "engineering": 9,
+      "cybernetics": 8,
+      "weaponsmith": 7,
+      "electronics": 8,
+      "mechanics": 7
+    },
+    "cybernetics": [
+      {
+        "name": "Tech Scanner",
+        "type": "Eye",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Gorilla Arms Mk.2",
+        "type": "Arms",
+        "version": "Mk.2"
+      },
+      {
+        "name": "Reinforced Tendons",
+        "type": "Legs",
+        "version": "Mk.2"
+      }
+    ],
+    "stats": {
+      "controllability": 7,
+      "hijack_difficulty": 6,
+      "bounty": 35000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "29",
+    "name": "Alexei Volkov",
+    "occupation": "Bounty Hunter",
+    "phone": "+1 (416) 555-0466",
+    "address": "789 Bloor St E, Toronto, ON M4W 1K0",
+    "bio": "A ruthless bounty hunter known for his efficiency and precision. Specializes in high-value captures and has never failed a mission.",
+    "education": [
+      "Night City Bounty Hunter Academy (2017-2019)",
+      "Advanced Tracking and Surveillance (2019-2020)"
+    ],
+    "gangAffiliations": [
+      "Former member of the Animals",
+      "Independent Contractor"
+    ],
+    "experience": [
+      "Captured the notorious 'Ghost Runner' (2022)",
+      "Developed advanced tracking algorithms",
+      "Survived the Night City Gang Wars (2018)"
+    ],
+    "attributes": {
+      "strength": 7,
+      "intelligence": 7,
+      "reflexes": 8,
+      "tech": 6,
+      "cool": 8,
+      "luck": 7,
+      "movement": 8,
+      "body": 7,
+      "empathy": 4
+    },
+    "skills": {
+      "tracking": 9,
+      "combat": 8,
+      "survival": 8,
+      "investigation": 7,
+      "negotiation": 6
+    },
+    "cybernetics": [
+      {
+        "name": "Kiroshi Optics Mk.3",
+        "type": "Eye",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Reinforced Skeleton",
+        "type": "Skeleton",
+        "version": "Mk.2"
+      },
+      {
+        "name": "Synaptic Accelerator",
+        "type": "Nervous System",
+        "version": "Mk.2"
+      }
+    ],
+    "stats": {
+      "controllability": 6,
+      "hijack_difficulty": 7,
+      "bounty": 70000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "30",
+    "name": "Leo Blackwood",
+    "occupation": "Hacker",
+    "phone": "+1 (416) 555-0134",
+    "address": "890 Spadina Ave, Toronto, ON M5T 2G7",
+    "bio": "A notorious black hat hacker who specializes in corporate espionage. Known for his ability to breach even the most secure systems.",
+    "education": [
+      "Night City University - Cybersecurity (2016-2020)",
+      "Advanced Hacking Techniques (2020-2021)"
+    ],
+    "gangAffiliations": [
+      "Former member of the Voodoo Boys",
+      "Current associate of the NetWatch"
+    ],
+    "experience": [
+      "Successfully hacked into Arasaka's mainframe (2021)",
+      "Developed the 'Quantum Breach' protocol",
+      "Survived the Net Crash of 2020"
+    ],
+    "attributes": {
+      "strength": 3,
+      "intelligence": 9,
+      "reflexes": 5,
+      "tech": 9,
+      "cool": 7,
+      "luck": 6,
+      "movement": 4,
+      "body": 4,
+      "empathy": 5
+    },
+    "skills": {
+      "hacking": 9,
+      "programming": 8,
+      "cybersecurity": 8,
+      "electronics": 7,
+      "stealth": 6
+    },
+    "cybernetics": [
+      {
+        "name": "NetWatch Netdriver Mk.5",
+        "type": "Cyberdeck",
+        "version": "Mk.5"
+      },
+      {
+        "name": "Kiroshi Optics Mk.3",
+        "type": "Eye",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Neural Link",
+        "type": "Brainware",
+        "version": "Mk.4"
+      }
+    ],
+    "stats": {
+      "controllability": 6,
+      "hijack_difficulty": 9,
+      "bounty": 75000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "31",
+    "name": "Kazuki Tanaka",
+    "occupation": "Samurai",
+    "phone": "+1 (416) 555-0467",
+    "address": "123 Yonge St, Toronto, ON M4Y 2B0",
+    "bio": "A legendary street samurai who follows the ancient code of bushido. Known for his unmatched sword skills and honor.",
+    "education": [
+      "Arasaka Combat Academy (2017-2019)",
+      "Advanced Sword Mastery (2019-2020)"
+    ],
+    "gangAffiliations": [
+      "Former Arasaka Security Force",
+      "Independent Mercenary"
+    ],
+    "experience": [
+      "Defeated the legendary 'Blade Master' in single combat (2022)",
+      "Survived the Arasaka Tower Incident (2020)",
+      "Trained under the last remaining master of the ancient sword style"
+    ],
+    "attributes": {
+      "strength": 8,
+      "intelligence": 6,
+      "reflexes": 9,
+      "tech": 5,
+      "cool": 8,
+      "luck": 7,
+      "movement": 8,
+      "body": 8,
+      "empathy": 5
+    },
+    "skills": {
+      "swordsmanship": 9,
+      "combat": 8,
+      "stealth": 7,
+      "tactics": 6,
+      "leadership": 5
+    },
+    "cybernetics": [
+      {
+        "name": "Sandevistan Mk.5",
+        "type": "Operating System",
+        "version": "Mk.5"
+      },
+      {
+        "name": "Mantis Blades Mk.3",
+        "type": "Arms",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Synaptic Accelerator",
+        "type": "Nervous System",
+        "version": "Mk.2"
+      }
+    ],
+    "stats": {
+      "controllability": 7,
+      "hijack_difficulty": 8,
+      "bounty": 90000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "32",
+    "name": "Sasha Volkov",
+    "occupation": "Netrunner",
+    "phone": "+1 (416) 555-0796",
+    "address": "456 Queen St W, Toronto, ON M6J 1H0",
+    "bio": "A prodigious netrunner with a unique ability to interface with the Net. Known for her innovative hacking techniques and quick thinking.",
+    "education": [
+      "Night City University - Computer Science (2016-2020)",
+      "Advanced Netrunning Program (2020-2021)"
+    ],
+    "gangAffiliations": [
+      "Former member of the Voodoo Boys",
+      "Current associate of the NetWatch"
+    ],
+    "experience": [
+      "Successfully breached the Arasaka mainframe (2021)",
+      "Developed the 'Quantum Breach' protocol",
+      "Survived the Net Crash of 2020"
+    ],
+    "attributes": {
+      "strength": 3,
+      "intelligence": 9,
+      "reflexes": 6,
+      "tech": 9,
+      "cool": 7,
+      "luck": 5,
+      "movement": 4,
+      "body": 4,
+      "empathy": 6
+    },
+    "skills": {
+      "netrunning": 9,
+      "programming": 8,
+      "cybersecurity": 8,
+      "data analysis": 7,
+      "system architecture": 7
+    },
+    "cybernetics": [
+      {
+        "name": "Tetratronic Rippler Mk.4",
+        "type": "Cyberdeck",
+        "version": "Mk.4"
+      },
+      {
+        "name": "Kiroshi Optics Mk.3",
+        "type": "Eye",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Neural Link",
+        "type": "Brainware",
+        "version": "Mk.4"
+      }
+    ],
+    "stats": {
+      "controllability": 5,
+      "hijack_difficulty": 9,
+      "bounty": 85000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "33",
+    "name": "Yuki Watanabe",
+    "occupation": "Technician",
+    "phone": "+1 (416) 555-0135",
+    "address": "789 Dundas St E, Toronto, ON M5B 1R3",
+    "bio": "A brilliant technician specializing in cybernetic modifications and weapon systems. Known for his innovative designs.",
+    "education": [
+      "Night City Technical Institute - Engineering (2015-2019)",
+      "Advanced Cybernetics (2019-2020)"
+    ],
+    "gangAffiliations": [
+      "Former member of the Maelstrom Gang",
+      "Independent Contractor"
+    ],
+    "experience": [
+      "Designed the revolutionary 'Quantum Core' cybernetic system (2021)",
+      "Worked on the development of the latest generation of smart weapons",
+      "Survived the Night City Riots (2017)"
+    ],
+    "attributes": {
+      "strength": 5,
+      "intelligence": 8,
+      "reflexes": 6,
+      "tech": 9,
+      "cool": 7,
+      "luck": 6,
+      "movement": 5,
+      "body": 6,
+      "empathy": 6
+    },
+    "skills": {
+      "engineering": 9,
+      "cybernetics": 8,
+      "weaponsmith": 7,
+      "electronics": 8,
+      "mechanics": 7
+    },
+    "cybernetics": [
+      {
+        "name": "Tech Scanner",
+        "type": "Eye",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Gorilla Arms Mk.2",
+        "type": "Arms",
+        "version": "Mk.2"
+      },
+      {
+        "name": "Reinforced Tendons",
+        "type": "Legs",
+        "version": "Mk.2"
+      }
+    ],
+    "stats": {
+      "controllability": 7,
+      "hijack_difficulty": 6,
+      "bounty": 35000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "34",
+    "name": "Nikolai Volkov",
+    "occupation": "Bounty Hunter",
+    "phone": "+1 (416) 555-0468",
+    "address": "123 Bloor St E, Toronto, ON M4W 1K2",
+    "bio": "A ruthless bounty hunter known for his efficiency and precision. Specializes in high-value captures and has never failed a mission.",
+    "education": [
+      "Night City Bounty Hunter Academy (2017-2019)",
+      "Advanced Tracking and Surveillance (2019-2020)"
+    ],
+    "gangAffiliations": [
+      "Former member of the Animals",
+      "Independent Contractor"
+    ],
+    "experience": [
+      "Captured the notorious 'Ghost Runner' (2022)",
+      "Developed advanced tracking algorithms",
+      "Survived the Night City Gang Wars (2018)"
+    ],
+    "attributes": {
+      "strength": 7,
+      "intelligence": 7,
+      "reflexes": 8,
+      "tech": 6,
+      "cool": 8,
+      "luck": 7,
+      "movement": 8,
+      "body": 7,
+      "empathy": 4
+    },
+    "skills": {
+      "tracking": 9,
+      "combat": 8,
+      "survival": 8,
+      "investigation": 7,
+      "negotiation": 6
+    },
+    "cybernetics": [
+      {
+        "name": "Kiroshi Optics Mk.3",
+        "type": "Eye",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Reinforced Skeleton",
+        "type": "Skeleton",
+        "version": "Mk.2"
+      },
+      {
+        "name": "Synaptic Accelerator",
+        "type": "Nervous System",
+        "version": "Mk.2"
+      }
+    ],
+    "stats": {
+      "controllability": 6,
+      "hijack_difficulty": 7,
+      "bounty": 70000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "35",
+    "name": "Ethan Blackwood",
+    "occupation": "Hacker",
+    "phone": "+1 (416) 555-0136",
+    "address": "234 Spadina Ave, Toronto, ON M5T 2G8",
+    "bio": "A notorious black hat hacker who specializes in corporate espionage. Known for his ability to breach even the most secure systems.",
+    "education": [
+      "Night City University - Cybersecurity (2016-2020)",
+      "Advanced Hacking Techniques (2020-2021)"
+    ],
+    "gangAffiliations": [
+      "Former member of the Voodoo Boys",
+      "Current associate of the NetWatch"
+    ],
+    "experience": [
+      "Successfully hacked into Arasaka's mainframe (2021)",
+      "Developed the 'Quantum Breach' protocol",
+      "Survived the Net Crash of 2020"
+    ],
+    "attributes": {
+      "strength": 3,
+      "intelligence": 9,
+      "reflexes": 5,
+      "tech": 9,
+      "cool": 7,
+      "luck": 6,
+      "movement": 4,
+      "body": 4,
+      "empathy": 5
+    },
+    "skills": {
+      "hacking": 9,
+      "programming": 8,
+      "cybersecurity": 8,
+      "electronics": 7,
+      "stealth": 6
+    },
+    "cybernetics": [
+      {
+        "name": "NetWatch Netdriver Mk.5",
+        "type": "Cyberdeck",
+        "version": "Mk.5"
+      },
+      {
+        "name": "Kiroshi Optics Mk.3",
+        "type": "Eye",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Neural Link",
+        "type": "Brainware",
+        "version": "Mk.4"
+      }
+    ],
+    "stats": {
+      "controllability": 6,
+      "hijack_difficulty": 9,
+      "bounty": 75000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "36",
+    "name": "Ryu Tanaka",
+    "occupation": "Samurai",
+    "phone": "+1 (416) 555-0469",
+    "address": "567 Yonge St, Toronto, ON M4Y 2B1",
+    "bio": "A legendary street samurai who follows the ancient code of bushido. Known for his unmatched sword skills and honor.",
+    "education": [
+      "Arasaka Combat Academy (2017-2019)",
+      "Advanced Sword Mastery (2019-2020)"
+    ],
+    "gangAffiliations": [
+      "Former Arasaka Security Force",
+      "Independent Mercenary"
+    ],
+    "experience": [
+      "Defeated the legendary 'Blade Master' in single combat (2022)",
+      "Survived the Arasaka Tower Incident (2020)",
+      "Trained under the last remaining master of the ancient sword style"
+    ],
+    "attributes": {
+      "strength": 8,
+      "intelligence": 6,
+      "reflexes": 9,
+      "tech": 5,
+      "cool": 8,
+      "luck": 7,
+      "movement": 8,
+      "body": 8,
+      "empathy": 5
+    },
+    "skills": {
+      "swordsmanship": 9,
+      "combat": 8,
+      "stealth": 7,
+      "tactics": 6,
+      "leadership": 5
+    },
+    "cybernetics": [
+      {
+        "name": "Sandevistan Mk.5",
+        "type": "Operating System",
+        "version": "Mk.5"
+      },
+      {
+        "name": "Mantis Blades Mk.3",
+        "type": "Arms",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Synaptic Accelerator",
+        "type": "Nervous System",
+        "version": "Mk.2"
+      }
+    ],
+    "stats": {
+      "controllability": 7,
+      "hijack_difficulty": 8,
+      "bounty": 90000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "37",
+    "name": "Anya Volkov",
+    "occupation": "Netrunner",
+    "phone": "+1 (416) 555-0797",
+    "address": "890 Queen St W, Toronto, ON M6J 1H1",
+    "bio": "A prodigious netrunner with a unique ability to interface with the Net. Known for her innovative hacking techniques and quick thinking.",
+    "education": [
+      "Night City University - Computer Science (2016-2020)",
+      "Advanced Netrunning Program (2020-2021)"
+    ],
+    "gangAffiliations": [
+      "Former member of the Voodoo Boys",
+      "Current associate of the NetWatch"
+    ],
+    "experience": [
+      "Successfully breached the Arasaka mainframe (2021)",
+      "Developed the 'Quantum Breach' protocol",
+      "Survived the Net Crash of 2020"
+    ],
+    "attributes": {
+      "strength": 3,
+      "intelligence": 9,
+      "reflexes": 6,
+      "tech": 9,
+      "cool": 7,
+      "luck": 5,
+      "movement": 4,
+      "body": 4,
+      "empathy": 6
+    },
+    "skills": {
+      "netrunning": 9,
+      "programming": 8,
+      "cybersecurity": 8,
+      "data analysis": 7,
+      "system architecture": 7
+    },
+    "cybernetics": [
+      {
+        "name": "Tetratronic Rippler Mk.4",
+        "type": "Cyberdeck",
+        "version": "Mk.4"
+      },
+      {
+        "name": "Kiroshi Optics Mk.3",
+        "type": "Eye",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Neural Link",
+        "type": "Brainware",
+        "version": "Mk.4"
+      }
+    ],
+    "stats": {
+      "controllability": 5,
+      "hijack_difficulty": 9,
+      "bounty": 85000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "38",
+    "name": "Haruto Watanabe",
+    "occupation": "Technician",
+    "phone": "+1 (416) 555-0137",
+    "address": "123 Dundas St E, Toronto, ON M5B 1R3",
+    "bio": "A brilliant technician specializing in cybernetic modifications and weapon systems. Known for his innovative designs.",
+    "education": [
+      "Night City Technical Institute - Engineering (2015-2019)",
+      "Advanced Cybernetics (2019-2020)"
+    ],
+    "gangAffiliations": [
+      "Former member of the Maelstrom Gang",
+      "Independent Contractor"
+    ],
+    "experience": [
+      "Designed the revolutionary 'Quantum Core' cybernetic system (2021)",
+      "Worked on the development of the latest generation of smart weapons",
+      "Survived the Night City Riots (2017)"
+    ],
+    "attributes": {
+      "strength": 5,
+      "intelligence": 8,
+      "reflexes": 6,
+      "tech": 9,
+      "cool": 7,
+      "luck": 6,
+      "movement": 5,
+      "body": 6,
+      "empathy": 6
+    },
+    "skills": {
+      "engineering": 9,
+      "cybernetics": 8,
+      "weaponsmith": 7,
+      "electronics": 8,
+      "mechanics": 7
+    },
+    "cybernetics": [
+      {
+        "name": "Tech Scanner",
+        "type": "Eye",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Gorilla Arms Mk.2",
+        "type": "Arms",
+        "version": "Mk.2"
+      },
+      {
+        "name": "Reinforced Tendons",
+        "type": "Legs",
+        "version": "Mk.2"
+      }
+    ],
+    "stats": {
+      "controllability": 7,
+      "hijack_difficulty": 6,
+      "bounty": 35000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "39",
+    "name": "Viktor Volkov",
+    "occupation": "Bounty Hunter",
+    "phone": "+1 (416) 555-0470",
+    "address": "456 Bloor St E, Toronto, ON M4W 1K2",
+    "bio": "A ruthless bounty hunter known for his efficiency and precision. Specializes in high-value captures and has never failed a mission.",
+    "education": [
+      "Night City Bounty Hunter Academy (2017-2019)",
+      "Advanced Tracking and Surveillance (2019-2020)"
+    ],
+    "gangAffiliations": [
+      "Former member of the Animals",
+      "Independent Contractor"
+    ],
+    "experience": [
+      "Captured the notorious 'Ghost Runner' (2022)",
+      "Developed advanced tracking algorithms",
+      "Survived the Night City Gang Wars (2018)"
+    ],
+    "attributes": {
+      "strength": 7,
+      "intelligence": 7,
+      "reflexes": 8,
+      "tech": 6,
+      "cool": 8,
+      "luck": 7,
+      "movement": 8,
+      "body": 7,
+      "empathy": 4
+    },
+    "skills": {
+      "tracking": 9,
+      "combat": 8,
+      "survival": 8,
+      "investigation": 7,
+      "negotiation": 6
+    },
+    "cybernetics": [
+      {
+        "name": "Kiroshi Optics Mk.3",
+        "type": "Eye",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Reinforced Skeleton",
+        "type": "Skeleton",
+        "version": "Mk.2"
+      },
+      {
+        "name": "Synaptic Accelerator",
+        "type": "Nervous System",
+        "version": "Mk.2"
+      }
+    ],
+    "stats": {
+      "controllability": 6,
+      "hijack_difficulty": 7,
+      "bounty": 70000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "40",
+    "name": "Lena Blackwood",
+    "occupation": "Hacker",
+    "phone": "+1 (416) 555-0138",
+    "address": "345 Spadina Ave, Toronto, ON M5T 2G9",
+    "bio": "A brilliant hacker who specializes in corporate espionage and data theft. Known for her ability to breach even the most secure systems.",
+    "education": [
+      "Night City University - Cybersecurity (2016-2020)",
+      "Advanced Hacking Techniques (2020-2021)"
+    ],
+    "gangAffiliations": [
+      "Former member of the Voodoo Boys",
+      "Current associate of the NetWatch"
+    ],
+    "experience": [
+      "Successfully hacked into Arasaka's mainframe (2021)",
+      "Developed the 'Quantum Breach' protocol",
+      "Survived the Net Crash of 2020"
+    ],
+    "attributes": {
+      "strength": 3,
+      "intelligence": 9,
+      "reflexes": 5,
+      "tech": 9,
+      "cool": 7,
+      "luck": 6,
+      "movement": 4,
+      "body": 4,
+      "empathy": 5
+    },
+    "skills": {
+      "hacking": 9,
+      "programming": 8,
+      "cybersecurity": 8,
+      "electronics": 7,
+      "stealth": 6
+    },
+    "cybernetics": [
+      {
+        "name": "NetWatch Netdriver Mk.5",
+        "type": "Cyberdeck",
+        "version": "Mk.5"
+      },
+      {
+        "name": "Kiroshi Optics Mk.3",
+        "type": "Eye",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Neural Link",
+        "type": "Brainware",
+        "version": "Mk.4"
+      }
+    ],
+    "stats": {
+      "controllability": 6,
+      "hijack_difficulty": 9,
+      "bounty": 75000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "41",
+    "name": "Kazuki Tanaka",
+    "occupation": "Samurai",
+    "phone": "+1 (416) 555-0471",
+    "address": "678 Yonge St, Toronto, ON M4Y 2B2",
+    "bio": "A legendary street samurai who follows the ancient code of bushido. Known for his unmatched sword skills and honor.",
+    "education": [
+      "Arasaka Combat Academy (2017-2019)",
+      "Advanced Sword Mastery (2019-2020)"
+    ],
+    "gangAffiliations": [
+      "Former Arasaka Security Force",
+      "Independent Mercenary"
+    ],
+    "experience": [
+      "Defeated the legendary 'Blade Master' in single combat (2022)",
+      "Survived the Arasaka Tower Incident (2020)",
+      "Trained under the last remaining master of the ancient sword style"
+    ],
+    "attributes": {
+      "strength": 8,
+      "intelligence": 6,
+      "reflexes": 9,
+      "tech": 5,
+      "cool": 8,
+      "luck": 7,
+      "movement": 8,
+      "body": 8,
+      "empathy": 5
+    },
+    "skills": {
+      "swordsmanship": 9,
+      "combat": 8,
+      "stealth": 7,
+      "tactics": 6,
+      "leadership": 5
+    },
+    "cybernetics": [
+      {
+        "name": "Sandevistan Mk.5",
+        "type": "Operating System",
+        "version": "Mk.5"
+      },
+      {
+        "name": "Mantis Blades Mk.3",
+        "type": "Arms",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Synaptic Accelerator",
+        "type": "Nervous System",
+        "version": "Mk.2"
+      }
+    ],
+    "stats": {
+      "controllability": 7,
+      "hijack_difficulty": 8,
+      "bounty": 90000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "42",
+    "name": "Sasha Volkov",
+    "occupation": "Netrunner",
+    "phone": "+1 (416) 555-0798",
+    "address": "901 Queen St W, Toronto, ON M6J 1H2",
+    "bio": "A prodigious netrunner with a unique ability to interface with the Net. Known for her innovative hacking techniques and quick thinking.",
+    "education": [
+      "Night City University - Computer Science (2016-2020)",
+      "Advanced Netrunning Program (2020-2021)"
+    ],
+    "gangAffiliations": [
+      "Former member of the Voodoo Boys",
+      "Current associate of the NetWatch"
+    ],
+    "experience": [
+      "Successfully breached the Arasaka mainframe (2021)",
+      "Developed the 'Quantum Breach' protocol",
+      "Survived the Net Crash of 2020"
+    ],
+    "attributes": {
+      "strength": 3,
+      "intelligence": 9,
+      "reflexes": 6,
+      "tech": 9,
+      "cool": 7,
+      "luck": 5,
+      "movement": 4,
+      "body": 4,
+      "empathy": 6
+    },
+    "skills": {
+      "netrunning": 9,
+      "programming": 8,
+      "cybersecurity": 8,
+      "data analysis": 7,
+      "system architecture": 7
+    },
+    "cybernetics": [
+      {
+        "name": "Tetratronic Rippler Mk.4",
+        "type": "Cyberdeck",
+        "version": "Mk.4"
+      },
+      {
+        "name": "Kiroshi Optics Mk.3",
+        "type": "Eye",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Neural Link",
+        "type": "Brainware",
+        "version": "Mk.4"
+      }
+    ],
+    "stats": {
+      "controllability": 5,
+      "hijack_difficulty": 9,
+      "bounty": 85000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "43",
+    "name": "Yuki Watanabe",
+    "occupation": "Technician",
+    "phone": "+1 (416) 555-0139",
+    "address": "234 Dundas St E, Toronto, ON M5B 1R4",
+    "bio": "A brilliant technician specializing in cybernetic modifications and weapon systems. Known for her innovative designs.",
+    "education": [
+      "Night City Technical Institute - Engineering (2015-2019)",
+      "Advanced Cybernetics (2019-2020)"
+    ],
+    "gangAffiliations": [
+      "Former member of the Maelstrom Gang",
+      "Independent Contractor"
+    ],
+    "experience": [
+      "Designed the revolutionary 'Quantum Core' cybernetic system (2021)",
+      "Worked on the development of the latest generation of smart weapons",
+      "Survived the Night City Riots (2017)"
+    ],
+    "attributes": {
+      "strength": 5,
+      "intelligence": 8,
+      "reflexes": 6,
+      "tech": 9,
+      "cool": 7,
+      "luck": 6,
+      "movement": 5,
+      "body": 6,
+      "empathy": 6
+    },
+    "skills": {
+      "engineering": 9,
+      "cybernetics": 8,
+      "weaponsmith": 7,
+      "electronics": 8,
+      "mechanics": 7
+    },
+    "cybernetics": [
+      {
+        "name": "Tech Scanner",
+        "type": "Eye",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Gorilla Arms Mk.2",
+        "type": "Arms",
+        "version": "Mk.2"
+      },
+      {
+        "name": "Reinforced Tendons",
+        "type": "Legs",
+        "version": "Mk.2"
+      }
+    ],
+    "stats": {
+      "controllability": 7,
+      "hijack_difficulty": 6,
+      "bounty": 35000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "44",
+    "name": "Nikolai Volkov",
+    "occupation": "Bounty Hunter",
+    "phone": "+1 (416) 555-0472",
+    "address": "567 Bloor St E, Toronto, ON M4W 1K3",
+    "bio": "A ruthless bounty hunter known for his efficiency and precision. Specializes in high-value captures and has never failed a mission.",
+    "education": [
+      "Night City Bounty Hunter Academy (2017-2019)",
+      "Advanced Tracking and Surveillance (2019-2020)"
+    ],
+    "gangAffiliations": [
+      "Former member of the Animals",
+      "Independent Contractor"
+    ],
+    "experience": [
+      "Captured the notorious 'Ghost Runner' (2022)",
+      "Developed advanced tracking algorithms",
+      "Survived the Night City Gang Wars (2018)"
+    ],
+    "attributes": {
+      "strength": 7,
+      "intelligence": 7,
+      "reflexes": 8,
+      "tech": 6,
+      "cool": 8,
+      "luck": 7,
+      "movement": 8,
+      "body": 7,
+      "empathy": 4
+    },
+    "skills": {
+      "tracking": 9,
+      "combat": 8,
+      "survival": 8,
+      "investigation": 7,
+      "negotiation": 6
+    },
+    "cybernetics": [
+      {
+        "name": "Kiroshi Optics Mk.3",
+        "type": "Eye",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Reinforced Skeleton",
+        "type": "Skeleton",
+        "version": "Mk.2"
+      },
+      {
+        "name": "Synaptic Accelerator",
+        "type": "Nervous System",
+        "version": "Mk.2"
+      }
+    ],
+    "stats": {
+      "controllability": 6,
+      "hijack_difficulty": 7,
+      "bounty": 70000,
+      "legal_immunity": "no"
+    }
+  },
+  {
+    "id": "45",
+    "name": "Max Blackwood",
+    "occupation": "Hacker",
+    "phone": "+1 (416) 555-0140",
+    "address": "456 Spadina Ave, Toronto, ON M5T 2H0",
+    "bio": "A brilliant hacker who specializes in corporate espionage and data theft. Known for his ability to breach even the most secure systems.",
+    "education": [
+      "Night City University - Cybersecurity (2016-2020)",
+      "Advanced Hacking Techniques (2020-2021)"
+    ],
+    "gangAffiliations": [
+      "Former member of the Voodoo Boys",
+      "Current associate of the NetWatch"
+    ],
+    "experience": [
+      "Successfully hacked into Arasaka's mainframe (2021)",
+      "Developed the 'Quantum Breach' protocol",
+      "Survived the Net Crash of 2020"
+    ],
+    "attributes": {
+      "strength": 3,
+      "intelligence": 9,
+      "reflexes": 5,
+      "tech": 9,
+      "cool": 7,
+      "luck": 6,
+      "movement": 4,
+      "body": 4,
+      "empathy": 5
+    },
+    "skills": {
+      "hacking": 9,
+      "programming": 8,
+      "cybersecurity": 8,
+      "electronics": 7,
+      "stealth": 6
+    },
+    "cybernetics": [
+      {
+        "name": "NetWatch Netdriver Mk.5",
+        "type": "Cyberdeck",
+        "version": "Mk.5"
+      },
+      {
+        "name": "Kiroshi Optics Mk.3",
+        "type": "Eye",
+        "version": "Mk.3"
+      },
+      {
+        "name": "Neural Link",
+        "type": "Brainware",
+        "version": "Mk.4"
+      }
+    ],
+    "stats": {
+      "controllability": 6,
+      "hijack_difficulty": 9,
+      "bounty": 75000,
+      "legal_immunity": "no"
+    }
+  }
+]

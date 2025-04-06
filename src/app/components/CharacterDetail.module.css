@@ -1,0 +1,270 @@
+.container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  color: #8b0000;
+  font-family: 'Courier New', monospace;
+  background-color: rgba(0, 0, 0, 0.95);
+  border: 1px solid #8b0000;
+  border-radius: 8px;
+  width: 70%;
+  max-width: 900px;
+  max-height: 70vh;
+  overflow: hidden;
+  z-index: 2000;
+  box-shadow: 0 0 30px rgba(139, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+.leftPanel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  overflow-y: auto;
+  padding-right: 1rem;
+  margin-right: 1rem;
+  border-right: 1px solid #8b0000;
+}
+
+.rightPanel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  overflow-y: auto;
+  padding-right: 1rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #8b0000;
+  position: relative;
+}
+
+.header h1 {
+  font-size: 2rem;
+  margin: 0;
+  color: #8b0000;
+  text-shadow: 0 0 10px rgba(139, 0, 0, 0.5);
+}
+
+.occupation {
+  font-size: 1.2rem;
+  color: #8b0000;
+  margin-top: 0.5rem;
+  opacity: 0.8;
+}
+
+.sectionTitle {
+  color: #8b0000;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #8b0000;
+  padding-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.sectionTitle::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 30%;
+  height: 2px;
+  background-color: #8b0000;
+}
+
+.contactInfo, .bioSection, .educationSection, .gangSection, .experienceSection {
+  background-color: rgba(139, 0, 0, 0.1);
+  padding: 1.5rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+}
+
+.contactInfo:hover, .bioSection:hover, .educationSection:hover, .gangSection:hover, .experienceSection:hover {
+  background-color: rgba(139, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.attributeList, .skillList, .cyberneticsList, .statsList {
+  display: grid;
+  gap: 1rem;
+}
+
+.attributeItem, .skillItem, .statItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem;
+  background-color: rgba(139, 0, 0, 0.1);
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.attributeItem:hover, .skillItem:hover, .statItem:hover {
+  background-color: rgba(139, 0, 0, 0.15);
+  transform: translateX(5px);
+}
+
+.attributeName, .skillName, .statName {
+  color: #8b0000;
+  font-weight: bold;
+}
+
+.attributeValue, .skillValue, .statValue {
+  color: #8b0000;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.cyberneticsItem {
+  background-color: rgba(139, 0, 0, 0.1);
+  padding: 1.5rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+}
+
+.cyberneticsItem:hover {
+  background-color: rgba(139, 0, 0, 0.15);
+  transform: translateX(5px);
+}
+
+.cyberneticsName {
+  color: #8b0000;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.cyberneticsType {
+  color: #8b0000;
+  margin: 0.5rem 0;
+  font-style: italic;
+}
+
+.cyberneticsVersion {
+  color: #8b0000;
+  font-size: 0.9rem;
+  text-align: right;
+}
+
+.educationList, .gangList, .experienceList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.educationItem, .gangItem, .experienceItem {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: rgba(139, 0, 0, 0.1);
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.educationItem:hover, .gangItem:hover, .experienceItem:hover {
+  background-color: rgba(139, 0, 0, 0.15);
+  transform: translateX(5px);
+}
+
+.bio {
+  line-height: 1.6;
+  color: #8b0000;
+  text-align: justify;
+}
+
+.phone, .address {
+  margin: 0.5rem 0;
+  color: #8b0000;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+  color: #8b0000;
+}
+
+.ratingStars {
+  color: #8b0000;
+  margin-left: 1rem;
+}
+
+.attributes, .skills, .cybernetics, .stats {
+  margin-bottom: 2rem;
+}
+
+.attributeBar, .skillBar {
+  height: 20px;
+  background-color: #000;
+  border: 1px solid #333;
+  border-radius: 0;
+  overflow: hidden;
+  margin-top: 0.5rem;
+}
+
+.attributeFill, .skillFill {
+  height: 100%;
+  background-color: #8b0000;
+  border-radius: 0;
+  transition: width 0.3s ease;
+}
+
+.backButton {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #000;
+  color: #8b0000;
+  border: 1px solid #8b0000;
+  border-radius: 0;
+  cursor: pointer;
+  font-family: 'Orbitron', sans-serif;
+  transition: all 0.3s ease;
+  z-index: 2001;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+}
+
+.backButton:hover {
+  background-color: #8b0000;
+  color: #000;
+  transform: translateY(-2px);
+}
+
+.leftPanel::-webkit-scrollbar,
+.rightPanel::-webkit-scrollbar {
+  width: 6px;
+}
+
+.leftPanel::-webkit-scrollbar-track,
+.rightPanel::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 3px;
+}
+
+.leftPanel::-webkit-scrollbar-thumb,
+.rightPanel::-webkit-scrollbar-thumb {
+  background-color: #8b0000;
+  border-radius: 3px;
+  border: 1px solid #333;
+}
+
+.leftPanel::-webkit-scrollbar-thumb:hover,
+.rightPanel::-webkit-scrollbar-thumb:hover {
+  background-color: #8b0000;
+} 

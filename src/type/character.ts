@@ -6,7 +6,7 @@ export interface Character {
     address: string;
     bio: string;
     education: string[];
-    gangAffiliations: string[];
+    gang_affiliations: string[];
     experience: string[];
     attributes: {
       strength: number;

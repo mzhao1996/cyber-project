@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 import styles from "./page.module.css";
 import Modal from './components/Modal';
 import { Character } from '@/type/character';
+import { supabase } from '@/lib/supabase';
 
 interface SearchResult {
   message: string[];
@@ -46,27 +47,21 @@ export default function Home() {
     setIsSearching(true);
     
     try {
-      console.log('Search button clicked');
-      console.log('Search query:', searchQuery);
-      const response = await fetch('api/search', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ query: searchQuery })
+      const { data, error } = await supabase
+        .from('characters')
+        .select('*')
+        .ilike('name', `%${searchQuery}%`);
+      
+      if (error) throw error;
+      
+      setSearchResults({
+        query: searchQuery,
+        message: ['Search completed successfully'],
+        results: data || []
       });
-      
-      if (!response.ok) {
-        throw new Error(`Search request failed: ${response.status}`);
-      }
-      
-      const data = await response.json();
-      console.log('Search results:', data);
-      setSearchResults(data);
       setIsModalOpen(true);
     } catch (error) {
       console.error('Search error:', error);
-      // Display error message
       setSearchResults({
         query: searchQuery,
         message: ['An error occurred during search, please try again later'],

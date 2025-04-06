@@ -398,69 +398,56 @@
   gap: 0.5rem;
 }
 
-.statsGrid {
+.statsList {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  width: 100%;
 }
 
-.statItem {
+.statsItem {
   padding: 0.75rem;
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   border: 1px solid #8b0000;
   transition: all 0.3s ease;
-  width: 100%;
 }
 
-.statItem:hover {
+.statsItem:hover {
   background-color: rgba(0, 0, 0, 0.3);
   transform: translateX(5px);
 }
 
-.statItem p {
+.statsItem p {
   margin: 0;
   display: flex;
   align-items: center;
-  width: 100%;
+  justify-content: space-between;
 }
 
-.statLabel {
+.statsName {
   font-weight: bold;
   color: #8b0000;
   margin-right: 0.5rem;
-  min-width: 120px;
 }
 
-.statLabel::after {
-  content: ':';
-  margin-left: 0.25rem;
-}
-
-.statValue {
+.statsValue {
   color: #8b0000;
   opacity: 0.8;
   font-size: 0.9rem;
-  margin-left: 0.5rem;
 }
 
-/* 滚动条样式 */
-.detailContainer::-webkit-scrollbar {
-  width: 8px;
-}
-
-.detailContainer::-webkit-scrollbar-track {
-  background: #000;
+.statsSection {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 1rem;
   border-radius: 4px;
+  border: 1px solid #8b0000;
+  margin-bottom: 1rem;
 }
 
-.detailContainer::-webkit-scrollbar-thumb {
-  background-color: #8b0000;
-  border-radius: 4px;
-  border: 1px solid #333;
-}
-
-.detailContainer::-webkit-scrollbar-thumb:hover {
-  background-color: #ff0000;
+.statsSection h3 {
+  color: #8b0000;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.2rem;
 } 

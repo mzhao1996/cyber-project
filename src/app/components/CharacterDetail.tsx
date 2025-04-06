@@ -76,12 +76,12 @@ export default function CharacterDetail({ character }: CharacterDetailProps) {
         </div>
         <div className={styles.statsSection}>
           <h3>Stats</h3>
-          <div className={styles.statsGrid}>
+          <div className={styles.statsList}>
             {Object.entries(character.stats).map(([key, value]) => (
-              <div key={key} className={styles.statItem}>
+              <div key={key} className={styles.statsItem}>
                 <p>
-                  <span className={styles.statLabel}>{key.replace('_', ' ').toUpperCase()}</span>
-                  <span className={styles.statValue}>{value}</span>
+                  <span className={styles.statsName}>{key.replace('_', ' ').toUpperCase()}</span>
+                  <span className={styles.statsValue}>{value}</span>
                 </p>
               </div>
             ))}

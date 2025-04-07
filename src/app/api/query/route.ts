@@ -312,7 +312,7 @@ export async function POST(request: Request) {
         
         reasoning = parsedResponse.reasoning;
         queryConditions = parsedResponse.queryConditions;
-      } catch (parseError: any) {
+      } catch (parseError) {
         console.error('Parse error:', parseError);
         throw new Error(`Failed to parse response: ${parseError.message}`);
       }

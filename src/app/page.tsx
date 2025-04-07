@@ -21,7 +21,7 @@ export default function Home() {
   const [loadingText, setLoadingText] = useState('');
   const [isSearching, setIsSearching] = useState(false);
   const [queryType, setQueryType] = useState('mission');
-  const loadingMessage = "Initializing system...";
+  const loadingMessage = "Backdoor Intrusion in Progress...";
   const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {

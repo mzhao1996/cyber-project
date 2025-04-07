@@ -10,6 +10,7 @@ interface SearchResult {
   message: string[];
   query: string;
   results: Character[];
+  recommendations: Record<string, string>;
 }
 
 export default function Home() {
@@ -19,7 +20,8 @@ export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [loadingText, setLoadingText] = useState('');
   const [isSearching, setIsSearching] = useState(false);
-  const loadingMessage = "Obtaining search permission...";
+  const [queryType, setQueryType] = useState('mission');
+  const loadingMessage = "Initializing system...";
   const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
@@ -47,25 +49,55 @@ export default function Home() {
     setIsSearching(true);
     
     try {
-      const { data, error } = await supabase
-        .from('characters')
-        .select('*')
-        .ilike('name', `%${searchQuery}%`);
+      // First convert natural language to query conditions
+      const response = await fetch('/api/query', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ 
+          query: searchQuery,
+          queryType: queryType
+        }),
+      });
+
+      const responseData = await response.json();
+      console.log('API Response:', responseData);
+
+      if (!response.ok) {
+        const errorMessage = responseData.error || 'API request failed';
+        const errorDetails = responseData.details ? `: ${responseData.details}` : '';
+        const rawResponse = responseData.rawResponse ? `\nRaw response: ${responseData.rawResponse}` : '';
+        throw new Error(`${errorMessage}${errorDetails}${rawResponse}`);
+      }
+
+      const { queryConditions, testData, testError, reasoning, recommendations } = responseData;
       
-      if (error) throw error;
-      
+      if (testError) {
+        throw new Error(testError);
+      }
+
+      if (!queryConditions || !queryConditions.column || !queryConditions.operator || !queryConditions.value) {
+        throw new Error('Invalid query conditions received from API');
+      }
+
       setSearchResults({
         query: searchQuery,
-        message: ['Search completed successfully'],
-        results: data || []
+        message: [
+          reasoning || 'No reasoning provided',
+          `Search completed successfully. Found ${testData.length} results.`
+        ],
+        results: testData || [],
+        recommendations: recommendations || {}
       });
       setIsModalOpen(true);
     } catch (error) {
       console.error('Search error:', error);
       setSearchResults({
         query: searchQuery,
-        message: ['An error occurred during search, please try again later'],
-        results: []
+        message: [`Error: ${error instanceof Error ? error.message : 'An error occurred during search'}`],
+        results: [],
+        recommendations: {}
       });
       setIsModalOpen(true);
     } finally {
@@ -80,7 +112,7 @@ export default function Home() {
   };
 
   return (
-    <div className={styles.page}>
+    <div className={`${styles.page} ${styles.squareCorners}`}>
       {isLoading && (
         <div className={styles.loadingOverlay}>
           <div className={styles.loadingText}>
@@ -94,10 +126,21 @@ export default function Home() {
       )}
       <div className={styles.main}>
         <div className={styles.searchContainer}>
+          <div className={styles.queryTypeContainer}>
+            <select 
+              className={styles.queryTypeSelect}
+              value={queryType}
+              onChange={(e) => setQueryType(e.target.value)}
+            >
+              <option value="mission">Mission Query</option>
+              <option value="sql">SQL Query</option>
+            </select>
+            <div className={styles.selectArrow}>▼</div>
+          </div>
           <input 
             ref={inputRef}
             type="text" 
-            placeholder="lets plug in and scrape the data" 
+            placeholder="lets plug in and scrape the data"
             className={styles.searchInput}
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
@@ -109,7 +152,7 @@ export default function Home() {
             onClick={handleSearch}
             disabled={isSearching}
           >
-            {isSearching ? 'Searching...' : 'injection'}
+            {isSearching ? 'Searching...' : 'Search'}
           </button>
         </div>
       </div>

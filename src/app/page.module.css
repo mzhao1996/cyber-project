@@ -6,13 +6,15 @@
   --button-primary-hover: #ff3333;
   --button-secondary-hover: #cc0000;
 
+  min-height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100svh;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
   padding: 20px;
-  font-family: 'Orbitron', sans-serif;
-  background-color: var(--darker-red);
   background-image: url('/images/ezgif-638c5d7985e4af.gif');
   background-size: cover;
   background-position: center;
@@ -34,12 +36,13 @@
 }
 
 .main {
+  width: 100%;
+  max-width: 800px;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  width: 100%;
-  max-width: 600px;
+  gap: 2rem;
 }
 
 .main ol {
@@ -184,85 +187,178 @@ a.secondary {
 }
 
 .searchContainer {
-  display: flex;
   width: 100%;
-  max-width: 500px;
-  margin: 0 auto;
-  gap: 10px;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  max-width: 1200px;
+}
+
+.queryTypeContainer {
   position: relative;
-  background-color: #000;
-  padding: 20px;
-  border: 1px solid #ff0000;
-  border-radius: 0;
+  min-width: 150px;
+  flex-shrink: 0;
 }
 
-.searchContainer::before {
-  content: "";
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  right: -2px;
-  bottom: -2px;
-  background: transparent;
-  z-index: -1;
-  border-radius: 10px;
-}
-
-.searchInput {
-  flex: 1;
-  padding: 12px 16px;
-  border-radius: 0;
-  border: none;
-  font-size: 18px;
-  outline: none;
-  background-color: transparent;
-  color: var(--text-color);
-  box-shadow: none;
-  transition: all 0.3s ease;
-  animation: inputGlitch 8s infinite;
-}
-
-.searchInput:focus {
-  box-shadow: none;
-}
-
-.searchInput::placeholder {
-  color: rgba(139, 0, 0, 0.5);
-}
-
+/* Square corners styles */
+.squareCorners,
+.squareCorners *,
+.queryTypeSelect,
+.queryTypeSelect option,
+.searchInput,
 .searchButton {
-  padding: 12px 20px;
-  background-color: transparent;
-  color: var(--text-color);
+  border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+}
+
+.queryTypeSelect {
+  width: 100%;
+  padding: 12px 16px;
   border: 1px solid #ff0000;
-  border-radius: 0;
+  background-color: #000000;
+  color: #ff0000;
   font-size: 18px;
-  font-weight: 500;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
   cursor: pointer;
   transition: all 0.3s ease;
   text-transform: uppercase;
   letter-spacing: 1px;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-  animation: buttonGlitch 7s infinite;
 }
 
-.searchButton::before {
-  content: "";
+.queryTypeSelect option {
+  background-color: #000000;
+  color: #ff0000;
+  padding: 12px 16px;
+  border: 1px solid #ff0000;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.queryTypeSelect:hover {
+  background-color: #1a1a1a;
+  border-color: #ff3333;
+}
+
+.queryTypeSelect:focus {
+  outline: none;
+  border-color: #ff3333;
+  box-shadow: 0 0 0 2px rgba(255, 0, 0, 0.2);
+}
+
+.selectArrow {
   position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: transparent;
-  transition: all 0.5s ease;
-  z-index: -1;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #ff0000;
+  pointer-events: none;
+  font-size: 18px;
+}
+
+.searchInput {
+  flex: 1;
+  min-width: 400px;
+  padding: 12px 16px;
+  border: 1px solid #ff0000;
+  background-color: #000000;
+  color: #ff0000;
+  font-size: 18px;
+  outline: none;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.searchInput:focus {
+  border-color: #ff3333;
+  box-shadow: 0 0 0 2px rgba(255, 0, 0, 0.2);
+}
+
+.searchInput::placeholder {
+  color: rgba(255, 0, 0, 0.5);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.searchButton {
+  padding: 12px 20px;
+  border: 1px solid #ff0000;
+  background-color: #000000;
+  color: #ff0000;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  flex-shrink: 0;
 }
 
 .searchButton:hover {
-  background-color: transparent;
-  color: var(--text-color);
+  background-color: #1a1a1a;
+  border-color: #ff3333;
+}
+
+.searchButton:disabled {
+  background-color: #000000;
+  border-color: #ff0000;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.loadingOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.loadingText {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #4a90e2;
+}
+
+.cursor {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.progressBar {
+  width: 200px;
+  height: 4px;
+  background-color: #333;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.progressFill {
+  width: 0%;
+  height: 100%;
+  background-color: #4a90e2;
+  animation: progress 3s forwards;
+}
+
+@keyframes progress {
+  to { width: 100%; }
 }
 
 .glitchText {
@@ -397,77 +493,4 @@ a.secondary {
   100% {
     transform: translateX(100%);
   }
-}
-
-.loadingOverlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.8);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-}
-
-.loadingText {
-  color: #ff0000;
-  font-size: 24px;
-  margin-bottom: 20px;
-  font-family: 'Orbitron', sans-serif;
-}
-
-.loadingText .cursor {
-  display: inline-block;
-  width: 2px;
-  height: 24px;
-  background-color: #ff0000;
-  animation: blink 1s infinite;
-}
-
-@keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
-}
-
-.progressBar {
-  width: 200px;
-  height: 4px;
-  background-color: rgba(255, 0, 0, 0.2);
-  border-radius: 2px;
-  overflow: hidden;
-}
-
-.progressFill {
-  height: 100%;
-  background-color: #ff0000;
-  animation: progressFill 2s ease-in-out infinite;
-}
-
-@keyframes progressFill {
-  0% { width: 0%; }
-  50% { width: 100%; }
-  100% { width: 0%; }
-}
-
-@keyframes fadeOut {
-  0% { opacity: 1; }
-  100% { opacity: 0; }
-}
-
-@keyframes inputGlitch {
-  0%, 100% { transform: translateX(0); }
-  25% { transform: translateX(-2px); }
-  50% { transform: translateX(2px); }
-  75% { transform: translateX(-2px); }
-}
-
-@keyframes buttonGlitch {
-  0%, 100% { transform: translateX(0); }
-  25% { transform: translateX(-2px); }
-  50% { transform: translateX(2px); }
-  75% { transform: translateX(-2px); }
 }

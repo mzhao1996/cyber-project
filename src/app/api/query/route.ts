@@ -342,7 +342,8 @@ export async function POST(request: Request) {
         queryConditions = parsedResponse.queryConditions;
       } catch (parseError) {
         console.error('Parse error:', parseError);
-        throw new Error(`Failed to parse response: ${parseError.message}`);
+        const errorMessage = parseError instanceof Error ? parseError.message : 'Unknown parse error';
+        throw new Error(`Failed to parse response: ${errorMessage}`);
       }
 
       // 验证查询条件结构

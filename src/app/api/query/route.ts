@@ -65,40 +65,169 @@ export async function POST(request: Request) {
     if (queryType === 'mission') {
       prompt = `You are a mission planner for a cyberpunk team. Convert the following mission request into Supabase query conditions to find suitable team members.
       
-      Available character attributes:
-      - Occupation: Hacker, Samurai, Netrunner, Technician, Bounty Hunter, etc.
-      - Skills: hacking, combat, stealth, etc. (rated 1-9)
-      - Attributes: strength, intelligence, reflexes, etc. (rated 1-9)
-      - Cybernetics: various implants and enhancements
-      - Stats: controllability, hijack_difficulty, bounty, legal_immunity
+      Available character attributes in the database:
+      1. Basic Information:
+         - name: Character name
+         - occupation: Role (Hacker, Samurai, Netrunner, Technician, Bounty Hunter, etc.)
+         - bio: Character background
+         - phone: Contact number
+         - address: Location
       
-      The table has the following structure: ${tableStructure}
+      2. Background:
+         - education: Array of educational history
+         - gang_affiliations: Array of gang/organization affiliations
+         - experience: Array of notable achievements/experiences
       
-      Important notes:
-      1. For JSON fields (attributes, skills, stats), use the -> operator to access nested values
-      2. For array fields (education, gangAffiliations, experience, cybernetics), use array operators
+      3. Core Attributes (rated 1-10):
+         - attributes->body: Physical strength and endurance
+         - attributes->cool: Composure under pressure
+         - attributes->luck: Fortune and chance
+         - attributes->tech: Technical aptitude
+         - attributes->empathy: Social understanding
+         - attributes->movement: Agility and speed
+         - attributes->reflexes: Reaction time
+         - attributes->strength: Raw physical power
+         - attributes->intelligence: Mental capability
+      
+      4. Skills (rated 1-9):
+         Various skills including:
+         - combat, stealth, hacking, engineering
+         - netrunning, electronics, programming
+         - medicine, cybernetics, weapons_tech
+         - tracking, surveillance, infiltration
+         Access using: skills->skill_name
+      
+      5. Cybernetic Enhancements:
+         Array of augmentations, each containing:
+         - name: Enhancement name
+         - type: Category (e.g., Neural, Body, Arms)
+         - version: Model version
+      
+      6. Performance Stats:
+         - stats->bounty: Reward value
+         - stats->legal_immunity: Legal status
+         - stats->controllability: Reliability rating (1-10)
+         - stats->hijack_difficulty: Security level (1-10)
+      
+      Important query notes:
+      1. For JSON fields (attributes, skills, stats), use the -> operator
+      2. For array fields (education, gang_affiliations, experience, cybernetics), use array operators
       3. Use ILIKE for case-insensitive text searches
-      4. You MUST return a valid JSON object with these fields:
+      4. You MUST ALWAYS return the EXACT following JSON structure:
          {
-           "reasoning": "Detailed explanation of how you analyzed the mission requirements and selected the search criteria",
+           "reasoning": "string explaining the search criteria",
            "queryConditions": {
              "column": "field_name",
              "operator": "comparison_operator",
              "value": comparison_value
            }
          }
-      5. Valid operators are: "eq", "gt", "gte", "lt", "lte", "neq", "like", "ilike"
-      6. Consider team composition and required skills for the mission
-      7. For skills queries, use the format: "skills->skill_name"
-      8. For attributes queries, use the format: "attributes->attribute_name"
+         ANY OTHER FORMAT WILL CAUSE AN ERROR!
+      5. Valid operators: "eq", "gt", "gte", "lt", "lte", "neq", "like", "ilike"
       
-      Example response for "Find characters with high hacking skills":
+      Query Pattern Guidelines:
+      1. For "all/any/find [occupation]" queries (e.g., "all hackers", "find samurai"):
+         MUST return:
+         {
+           "reasoning": "Searching for [occupation] characters",
+           "queryConditions": {
+             "column": "occupation",
+             "operator": "ilike",
+             "value": "[occupation]"
+           }
+         }
+      
+      2. For skill-based queries (e.g., "high hacking", "good at combat"):
+         MUST return:
+         {
+           "reasoning": "Searching for characters with specific skill level",
+           "queryConditions": {
+             "column": "skills->[skill_name]",
+             "operator": "gte",
+             "value": 7
+           }
+         }
+      
+      3. For attribute-based queries (e.g., "strong", "intelligent"):
+         MUST return:
+         {
+           "reasoning": "Searching for characters with specific attribute level",
+           "queryConditions": {
+             "column": "attributes->[attribute_name]",
+             "operator": "gte",
+             "value": 7
+           }
+         }
+      
+      Examples (ALL RESPONSES MUST FOLLOW THIS EXACT FORMAT):
+      
+      1. "Find all hackers":
       {
-        "reasoning": "For a mission requiring high hacking skills, we need to look for characters with hacking skill greater than 7. This ensures we find highly skilled hackers who can handle complex security systems.",
+        "reasoning": "Searching for all characters with the Hacker occupation",
+        "queryConditions": {
+          "column": "occupation",
+          "operator": "ilike",
+          "value": "Hacker"
+        }
+      }
+      
+      2. "Find all samurai":
+      {
+        "reasoning": "Searching for all characters with the Samurai occupation",
+        "queryConditions": {
+          "column": "occupation",
+          "operator": "ilike",
+          "value": "Samurai"
+        }
+      }
+      
+      3. "High hacking skills":
+      {
+        "reasoning": "Searching for characters with high hacking abilities",
         "queryConditions": {
           "column": "skills->hacking",
-          "operator": "gt",
+          "operator": "gte",
           "value": 7
+        }
+      }
+      
+      4. "Find skilled netrunners":
+      {
+        "reasoning": "Looking for characters who are netrunners with high netrunning skills.",
+        "queryConditions": {
+          "column": "skills->netrunning",
+          "operator": "gte",
+          "value": 7
+        }
+      }
+      
+      5. "Find strong fighters":
+      {
+        "reasoning": "Searching for characters with high strength attribute for combat.",
+        "queryConditions": {
+          "column": "attributes->strength",
+          "operator": "gte",
+          "value": 7
+        }
+      }
+      
+      6. "Find all technicians":
+      {
+        "reasoning": "Searching for all characters with the Technician occupation.",
+        "queryConditions": {
+          "column": "occupation",
+          "operator": "ilike",
+          "value": "Technician"
+        }
+      }
+      
+      7. "Find all bounty hunters":
+      {
+        "reasoning": "Searching for all characters with the Bounty Hunter occupation.",
+        "queryConditions": {
+          "column": "occupation",
+          "operator": "ilike",
+          "value": "Bounty Hunter"
         }
       }
       
@@ -161,13 +290,34 @@ export async function POST(request: Request) {
         throw new Error('Empty response from OpenAI');
       }
       
-      const response = JSON.parse(content);
-      console.log('Parsed OpenAI response:', response);
+      // 尝试解析响应
+      let parsedResponse;
+      try {
+        parsedResponse = JSON.parse(content);
+        
+        // 如果响应是直接的查询条件对象，将其包装成完整格式
+        if (parsedResponse.column && parsedResponse.operator && parsedResponse.value) {
+          parsedResponse = {
+            reasoning: "Auto-generated reasoning for the query",
+            queryConditions: parsedResponse
+          };
+        }
 
-      reasoning = response.reasoning || '';
-      queryConditions = response.queryConditions;
+        // 验证响应格式
+        if (!parsedResponse.reasoning || !parsedResponse.queryConditions) {
+          throw new Error('Response missing required fields');
+        }
 
-      // Validate the structure of query conditions
+        console.log('Parsed response:', parsedResponse);
+        
+        reasoning = parsedResponse.reasoning;
+        queryConditions = parsedResponse.queryConditions;
+      } catch (parseError: any) {
+        console.error('Parse error:', parseError);
+        throw new Error(`Failed to parse response: ${parseError.message}`);
+      }
+
+      // 验证查询条件结构
       if (!queryConditions || typeof queryConditions !== 'object') {
         throw new Error('Invalid response format: queryConditions not an object');
       }
@@ -184,7 +334,7 @@ export async function POST(request: Request) {
         throw new Error('Invalid response format: missing value');
       }
 
-      // Validate operator
+      // 验证操作符
       const validOperators = ['eq', 'gt', 'gte', 'lt', 'lte', 'neq', 'like', 'ilike'];
       if (!validOperators.includes(queryConditions.operator)) {
         throw new Error(`Invalid operator: ${queryConditions.operator}. Must be one of: ${validOperators.join(', ')}`);

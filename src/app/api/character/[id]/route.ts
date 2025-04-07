@@ -1,17 +1,11 @@
-import { NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
 import { Character } from '@/type/character';
 
-type Props = {
-  params: {
-    id: string;
-  };
-};
-
 export async function GET(
-  request: Request,
-  { params }: Props
+  request: NextRequest,
+  { params }: { params: { id: string } }
 ) {
   try {
     const filePath = path.join(process.cwd(), 'src/data/Character.json');

@@ -243,24 +243,52 @@ export async function POST(request: Request) {
       1. For JSON fields (attributes, skills, stats), use the -> operator to access nested values
       2. For array fields (education, gangAffiliations, experience, cybernetics), use array operators
       3. Use ILIKE for case-insensitive text searches
-      4. You MUST return ONLY a valid JSON object with exactly these three fields:
+      4. You MUST return a valid JSON object with exactly these fields:
          {
-           "column": "field_name",
-           "operator": "comparison_operator",
-           "value": comparison_value
+           "reasoning": "explanation of the query",
+           "queryConditions": {
+             "column": "field_name",
+             "operator": "comparison_operator",
+             "value": comparison_value
+           }
          }
       5. Valid operators are: "eq", "gt", "gte", "lt", "lte", "neq", "like", "ilike"
       
-      Example response for "Find characters where hacking skill is greater than 7":
+      Example responses:
+      
+      1. For "Find all hackers":
       {
-        "column": "skills->hacking",
-        "operator": "gt",
-        "value": 7
+        "reasoning": "Searching for all characters with the Hacker occupation",
+        "queryConditions": {
+          "column": "occupation",
+          "operator": "ilike",
+          "value": "Hacker"
+        }
+      }
+      
+      2. For "Find characters with high hacking skills":
+      {
+        "reasoning": "Searching for characters with high hacking abilities",
+        "queryConditions": {
+          "column": "skills->hacking",
+          "operator": "gte",
+          "value": 7
+        }
+      }
+      
+      3. For "Find strong characters":
+      {
+        "reasoning": "Searching for characters with high strength attribute",
+        "queryConditions": {
+          "column": "attributes->strength",
+          "operator": "gte",
+          "value": 7
+        }
       }
       
       Query: ${query}`;
 
-      systemMessage = "You are a SQL expert. You must return ONLY a valid JSON object with column, operator, and value fields.";
+      systemMessage = "You are a SQL expert. You must return a valid JSON object with reasoning and queryConditions fields.";
     }
 
     console.log('Sending request to OpenAI...');

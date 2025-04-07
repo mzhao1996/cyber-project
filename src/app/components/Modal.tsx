@@ -102,7 +102,6 @@ ${data.recommendations[character.name] || 'No recommendation available'}`;
         <div ref={modalRef} className={styles.modalContent}>
           <div className={styles.modalHeader}>
             <h2>Search Results</h2>
-            <button className={styles.closeButton} onClick={onClose}>×</button>
           </div>
           <div className={styles.searchInfo}>
             <h3>Search Information</h3>
@@ -143,7 +142,6 @@ ${data.recommendations[character.name] || 'No recommendation available'}`;
           <div ref={detailRef} className={styles.detailContent}>
             <div className={styles.modalHeader}>
               <h2>Character Details</h2>
-              <button className={styles.closeButton} onClick={() => setSelectedCharacter(null)}>×</button>
             </div>
 
             <div className={styles.detailSection}>

@@ -47,6 +47,8 @@ export default function Home() {
     if (!searchQuery.trim()) return;
     
     setIsSearching(true);
+    setSearchResults(null);
+    setIsModalOpen(false);
     
     try {
       // First convert natural language to query conditions
@@ -133,7 +135,7 @@ export default function Home() {
               onChange={(e) => setQueryType(e.target.value)}
             >
               <option value="mission">Mission Query</option>
-              <option value="sql">SQL Query</option>
+              <option value="sql">Database Query</option>
             </select>
             <div className={styles.selectArrow}>▼</div>
           </div>
